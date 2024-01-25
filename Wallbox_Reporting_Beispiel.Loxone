@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="239" LxAV="65" NextObj="228" NextConst="1" NextNote="1" NextMem="1">
-	<C Type="Document" V="14051207" U="1c4b6ecb-00b6-6e38-ffff7e7dcca6b5e7" Title="Wallbox Reporting Beispiel" ConfigVersion="14051207" PaperFormat="2" SPSfreq="100" OpenIsHigh="false" Date="2024-01-24 11:42:12" CDate="" BDate="" DateS="475324932" Street="" Town="" PostCode="" Ctry="" Latitude="0" Longitude="0" Logo="" uuidNotifications="1c4b6ecb-00b6-6e34-ffff7e7dcca6b5e7" uuidFavSeq="1c4b6ecb-00b6-6e36-ffff7e7dcca6b5e7" uuidFavCol="1c4b6ecb-00b6-6e37-ffff7e7dcca6b5e7" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="1c4b6ecb-00b6-6e35-ffff7e7dcca6b5e7" UnitPrecipitation="1" Currency="€" UpdTime="120" AUE="true" CrashL="true" Geo="0" NumO="539" APPKEY="C776E803E00B3A284F3E5C7678553439" APPID="C429E1">
+<ControlList Version="239" LxAV="65" NextObj="316" NextConst="1" NextNote="1" NextMem="1">
+	<C Type="Document" V="14051207" U="1c4b6ecb-00b6-6e38-ffff7e7dcca6b5e7" Title="Wallbox Reporting Beispiel" ConfigVersion="14051207" PaperFormat="2" SPSfreq="100" OpenIsHigh="false" Date="2024-01-25 09:05:07" CDate="" BDate="" DateS="475401907" Street="" Town="" PostCode="" Ctry="" Latitude="0" Longitude="0" Logo="" uuidNotifications="1c4b6ecb-00b6-6e34-ffff7e7dcca6b5e7" uuidFavSeq="1c4b6ecb-00b6-6e36-ffff7e7dcca6b5e7" uuidFavCol="1c4b6ecb-00b6-6e37-ffff7e7dcca6b5e7" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="1c4b6ecb-00b6-6e35-ffff7e7dcca6b5e7" UnitPrecipitation="1" Currency="€" UpdTime="120" AUE="true" CrashL="true" Geo="0" NumO="563" APPKEY="C776E803E00B3A284F3E5C7678553439" APPID="C429E1">
 		<HP H="" Sc="-2" S="WGpiqX5LbyaIrGD1MuWTTyrxvlVqUpqf" Alg="1"/>
 		<C Type="LoxCaption" V="163" U="1c4b6ecb-00bb-6e3a-ffff7e7dcca6b5e7" Title="Symbole" Cl="0,0,0" WF="16384" CaptionType="5" SubType="5"/>
 		<C Type="CategoryCaption" V="163" U="1c4b6ecb-00bb-6e3c-ffff7e7dcca6b5e7" Title="Kategorien" WF="16384">
@@ -1380,10 +1380,10 @@
 						</C>
 						<C Type="ApiActor" V="163" U="1c4b7434-010c-5456-ffff7e7dcca6b5e7" Title="API Connector" Cl="0,0,0" Nio="1" WF="8405008" Tp="171">
 							<Co K="I" Nc="4" U="1c4b7434-010c-5455-00ff76bd22b66507">
-								<In Input="1c4e3314-0072-1f4f-ffff4b5efe8004cc"/>
-								<In Input="1c4e319e-01d0-a1e7-fffff083e3281e1c"/>
-								<In Input="1c4b770f-0237-496a-01ff85dd38efa46b"/>
 								<In Input="1c4b7832-00d1-f3f0-ffffe2c9b019b6c8"/>
+								<In Input="1c4b770f-0237-496a-01ff85dd38efa46b"/>
+								<In Input="1c4e319e-01d0-a1e7-fffff083e3281e1c"/>
+								<In Input="1c4e3314-0072-1f4f-ffff4b5efe8004cc"/>
 							</Co>
 						</C>
 						<C Type="TreeAsensor" IName="AI0" V="163" U="1c4b7434-010c-545a-ffff7e7dcca6b5e7" Title="Temperatur" Cl="0,0,0" Nio="2" WF="16384" ValOT="1" Analog="true" EnoceanSubType="1" SourceValHigh="100" DestValHigh="100" MinVal="-40" MaxVal="125" MinChange="0.25" MinTime="1000">
@@ -1572,7 +1572,7 @@
 		<C Type="Program" V="163" U="1c4b6ece-0264-722c-ffff7e7dcca6b5e7" Title="Miniserver" Ref="1c4b6ece-023c-706e-ffff7e7dcca6b5e7" WF="16384">
 			<C Type="Page" V="163" U="1c4b6ece-0264-722e-ffff7e7dcca6b5e7" Title="1. Infos" WF="16384">
 				<IoData Cr="1c4b6ecb-00ca-6ecb-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00f2-6fa6-ffff7e7dcca6b5e7"/>
-				<C Type="Text" V="163" U="1c4b7a5a-02b5-9af2-ffff7e7dcca6b5e7" Title="Notiz" Px="2976" Py="3552" Px2="11898" Py2="5868" Cl="255,249,196" LtE="475324405" Text="Was es braucht:
+				<C Type="Text" V="163" U="1c4b7a5a-02b5-9af2-ffff7e7dcca6b5e7" Title="Notiz" Px="2976" Py="3552" Px2="11513" Py2="5868" Cl="255,249,196" LtE="475324405" Text="Was es braucht:
 
 Wallbox ;-)
 Energiezähler in Wallbox (hier Eastron SDM630)
@@ -1587,14 +1587,16 @@ https://github.com/s2patrick/LoxoneWallboxReporting"/>
 			</C>
 			<C Type="Page" V="163" U="1c4b749a-01ff-82bf-ffff7e7dcca6b5e7" Title="2. Energiemanager" LtE="474707537" WF="16384">
 				<IoData Cr="1c4b6ecb-00d4-6f15-ffff7e7dcca6b5e7" Pr="1c4b6ecb-0105-7026-ffff7e7dcca6b5e7"/>
-				<C Type="EnergyManager2" V="163" U="1c4b74a8-0079-8a37-ffff7e7dcca6b5e7" Title="Energiemanager" Px="6624" Py="4224" Px2="9312" Py2="5472" Cl="50,122,231" Nio="37" LtE="474707529" WF="16384" SpStates="1c4b74a8-0079-8a11-fffffba3e59a7c8a">
+				<C Type="EnergyManager2" V="163" U="1c4b74a8-0079-8a37-ffff7e7dcca6b5e7" Title="Energiemanager" Px="6624" Py="4224" Px2="9312" Py2="5472" Cl="50,122,231" Nio="37" LtE="474707529" SpStates="1c4b74a8-0079-8a11-fffffba3e59a7c8a">
 					<Co K="Gpwr" U="1c4b74a8-0079-8a12-00fffba3e59a7c8a"/>
 					<Co K="Ppwr" U="1c4b74a8-0079-8a13-01fffba3e59a7c8a"/>
 					<Co K="Spwr" U="1c4b74a8-0079-8a14-02fffba3e59a7c8a"/>
 					<Co K="Soc" U="1c4b74a8-0079-8a15-03fffba3e59a7c8a"/>
 					<Co K="Prio" U="1c4b74a8-0079-8a16-04fffba3e59a7c8a"/>
 					<Co K="Recalc" U="1c4b74a8-0079-8a17-05fffba3e59a7c8a"/>
-					<Co K="IL1" Nc="1" U="1c4b74a8-0079-8a18-06fffba3e59a7c8a">
+					<Co K="IL1" Nc="3" U="1c4b74a8-0079-8a18-06fffba3e59a7c8a">
+						<In Input="1c55fe12-01c2-8805-ffff75f5eec85aef" CF="true"/>
+						<In Input="1c4e3314-0072-1eb4-ffff4b5efe8004cc" CF="true"/>
 						<In Input="1c4b76f1-03ca-1dc7-ffffbf487197726b" CF="true"/>
 					</Co>
 					<Co K="IL2" U="1c4b74a8-0079-8a19-07fffba3e59a7c8a"/>
@@ -1641,13 +1643,13 @@ https://github.com/s2patrick/LoxoneWallboxReporting"/>
 					<Load Id="1c4b74a8-0079-8a0f-fffffba3e59a7c8a" Na="" OIdx="10" RT="60"/>
 					<Load Id="1c4b74a8-0079-8a10-fffffba3e59a7c8a" Na="" OIdx="11" RT="60"/>
 				</C>
-				<C Type="Text" V="163" U="1c4b74cd-03d5-98af-ffff7e7dcca6b5e7" Title="Notiz" Px="4128" Py="3360" Px2="11192" Py2="3948" Cl="255,249,196" LtE="474707210" WF="16384" Text="Hier muss die Wallbox definiert sein, wenn sie über PV Überschuss aktiviert werden soll. 
+				<C Type="Text" V="163" U="1c4b74cd-03d5-98af-ffff7e7dcca6b5e7" Title="Notiz" Px="4128" Py="3360" Px2="11192" Py2="3948" Cl="255,249,196" LtE="474707210" Text="Hier muss die Wallbox definiert sein, wenn sie über PV Überschuss aktiviert werden soll. 
 Typ muss &quot;Analog&quot; sein. 
 Min/Max (und Zeiten) kann man für die eigenen Bedürfnisse setzen"/>
 			</C>
 			<C Type="Page" V="163" U="1c4b750e-0147-a6cd-ffff7e7dcca6b5e7" Title="3. Spotpreis" LtE="474707394" WF="16384">
 				<IoData Cr="1c4b6ecb-00d4-6f15-ffff7e7dcca6b5e7" Pr="1c4b6ecb-0105-7026-ffff7e7dcca6b5e7"/>
-				<C Type="InputRef" V="163" U="1c4b7549-003d-9c85-ffff7e7dcca6b5e7" Title="Stundenimpuls" Px="3072" Py="4800" Px2="5184" Py2="4992" Cl="238,238,238" Nio="4" Ref="1c4b6ecb-00c4-6e9a-ffff7e7dcca6b5e7" WF="147456" LinkRefType="291">
+				<C Type="InputRef" V="163" U="1c4b7549-003d-9c85-ffff7e7dcca6b5e7" Title="Stundenimpuls" Px="3072" Py="4800" Px2="5184" Py2="4992" Cl="238,238,238" Nio="4" Ref="1c4b6ecb-00c4-6e9a-ffff7e7dcca6b5e7" WF="131072" LinkRefType="291">
 					<Co K="AI" Nc="1" U="1c4b7549-003d-9c81-00ff012659069fa6">
 						<In Input="1c4b6ecb-00c4-6e99-00ff7e7dcca6b5e7"/>
 					</Co>
@@ -1655,7 +1657,7 @@ Min/Max (und Zeiten) kann man für die eigenen Bedürfnisse setzen"/>
 					<Co K="AQ" U="1c4b7549-003d-9c83-02ff012659069fa6"/>
 					<Co K="Q" U="1c4b7549-003d-9c84-03ff012659069fa6"/>
 				</C>
-				<C Type="Text" V="163" U="1c4b753d-014b-8d55-ffff156db80fd3dc" Title="Notiz" Px="2496" Py="1920" Px2="9491" Py2="3660" Cl="255,249,196" LtE="474707380" WF="16384" Text="Beispiel für Berechnun bei aWATTar Österreich (kommt von deren Webseite):
+				<C Type="Text" V="163" U="1c4b753d-014b-8d55-ffff156db80fd3dc" Title="Notiz" Px="2496" Py="1920" Px2="8640" Py2="3660" Cl="255,249,196" LtE="474707380" Text="Beispiel für Berechnun bei aWATTar Österreich (kommt von deren Webseite):
 https://www.awattar.at/tariffs/hourly
 
 Stündliche Preise EPEX Spot AT
@@ -1664,7 +1666,7 @@ Stündliche Preise EPEX Spot AT
 + 20% MwSt. (brutto)
 
 Formel Preisberechnung: ((I1*1,03)+0,015)*1,20"/>
-				<C Type="SpotOpt" V="163" U="1c4b753d-014b-8d56-ffff156db80fd3dc" Title="Epex Spotpreis-Optimierer" StatsType="8" StatsAutoDel="1" Px="5952" Py="4320" Px2="8640" Py2="5376" Cl="50,122,231" Nio="39" LtE="474707517" WF="16384" SpStates="1c4b753d-014b-8d83-ffff156db80fd3dc,1c4b753d-014b-8d84-ffff156db80fd3dc,1c4b753d-014b-8d85-ffff156db80fd3dc" Un="&lt;v.3&gt;€/kWh" Mod="2" Fm="((I1*1,03)+0,015)*1,20">
+				<C Type="SpotOpt" V="163" U="1c4b753d-014b-8d56-ffff156db80fd3dc" Title="Epex Spotpreis-Optimierer" StatsType="8" StatsAutoDel="1" Px="5952" Py="4320" Px2="8640" Py2="5376" Cl="50,122,231" Nio="39" LtE="474707517" SpStates="1c4b753d-014b-8d83-ffff156db80fd3dc,1c4b753d-014b-8d84-ffff156db80fd3dc,1c4b753d-014b-8d85-ffff156db80fd3dc" Un="&lt;v.3&gt;€/kWh" Mod="2" Fm="((I1*1,03)+0,015)*1,20">
 					<statGrp id="1" m="11"/>
 					<Co K="R" U="1c4b753d-014b-8d57-ffff156db80fd3dc"/>
 					<Co K="Tr" Nc="1" U="1c4b753d-014b-8d58-ffff156db80fd3dc">
@@ -1709,7 +1711,7 @@ Formel Preisberechnung: ((I1*1,03)+0,015)*1,20"/>
 					<Co K="OutputAPI" U="1c4b753d-014b-8d7e-ffff156db80fd3dc"/>
 					<IoData Visu="true" Cr="1c4b6ecb-00d4-6f15-ffff7e7dcca6b5e7" Pr="1c4b6ecb-0105-7026-ffff7e7dcca6b5e7"/>
 				</C>
-				<C Type="StateV" V="163" U="1c4b753d-014b-8d7f-ffff156db80fd3dc" Title="Epex Preisentwicklung" StatsType="1" StatsAutoDel="12" Px="9600" Py="3648" Px2="12288" Py2="4320" Cl="50,122,231" Nio="2" LtE="474707517" WF="16384" Analog="true" Tx="false">
+				<C Type="StateV" V="163" U="1c4b753d-014b-8d7f-ffff156db80fd3dc" Title="Epex Preisentwicklung" StatsType="1" StatsAutoDel="12" Px="9600" Py="3648" Px2="12288" Py2="4320" Cl="50,122,231" Nio="2" LtE="474707517" Analog="true" Tx="false">
 					<Co K="I" Nc="1" U="1c4b753d-014b-8d80-ffff156db80fd3dc">
 						<In Input="1c4b753d-014b-8d76-ffff156db80fd3dc"/>
 					</Co>
@@ -1720,7 +1722,7 @@ Formel Preisberechnung: ((I1*1,03)+0,015)*1,20"/>
 			</C>
 			<C Type="Page" V="163" U="1c4b7658-01fd-b8f8-ffff7e7dcca6b5e7" Title="4a. Wallbox ohne PV/Epex" LtE="474707608" WF="16384">
 				<IoData Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7"/>
-				<C Type="InputRef" V="163" U="1c4b7832-00d1-f39a-ffffe2c9b019b6c8" Title="Total active Power" Px="1536" Py="6336" Px2="3648" Py2="6528" Cl="238,238,238" Nio="4" Ref="1c4b7407-038c-4809-ffff7e7dcca6b5e7" RefL="1c4b7407-038c-4809-ffff7e7dcca6b5e7" Ref2="1c4b7407-038c-4809-ffff7e7dcca6b5e7" WF="16384" Analog="true" LinkRefType="153">
+				<C Type="InputRef" V="163" U="1c4b7832-00d1-f39a-ffffe2c9b019b6c8" Title="Total active Power" Px="1536" Py="6336" Px2="3648" Py2="6528" Cl="238,238,238" Nio="4" Ref="1c4b7407-038c-4809-ffff7e7dcca6b5e7" RefL="1c4b7407-038c-4809-ffff7e7dcca6b5e7" Ref2="1c4b7407-038c-4809-ffff7e7dcca6b5e7" WF="131072" Analog="true" LinkRefType="153">
 					<Co K="AI" Nc="1" U="1c4b7832-00d1-f39b-ffffe2c9b019b6c8">
 						<In Input="1c4b7407-038c-4807-00ffda2acf93df24"/>
 					</Co>
@@ -1730,7 +1732,7 @@ Formel Preisberechnung: ((I1*1,03)+0,015)*1,20"/>
 					<Co K="AQ" U="1c4b7832-00d1-f39d-ffffe2c9b019b6c8"/>
 					<Co K="Q" U="1c4b7832-00d1-f39e-ffffe2c9b019b6c8"/>
 				</C>
-				<C Type="Wallbox" V="163" U="1c4b7832-00d1-f39f-ffffe2c9b019b6c8" Title="Wallbox" StatsType="8" StatsAutoDel="1" Px="4608" Py="5664" Px2="7296" Py2="7488" Cl="105,195,80" Nio="45" LtE="474707988" WF="16384" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="" P1="4.16" P2="11" SpStates="1c4b7832-00d1-f3fd-ffffe2c9b019b6c8,1c4b7832-00d1-f3fe-ffffe2c9b019b6c8,1c4b7832-00d1-f3ff-ffffe2c9b019b6c8,1c4b7832-00d1-f400-ffffe2c9b019b6c8,1c4b7832-00d1-f401-ffffe2c9b019b6c8,1c4b7832-00d1-f402-ffffe2c9b019b6c8" TRK_NE="100" TRK_MAX="100">
+				<C Type="Wallbox" V="163" U="1c4b7832-00d1-f39f-ffffe2c9b019b6c8" Title="Wallbox" StatsType="8" StatsAutoDel="1" Px="4608" Py="5664" Px2="7296" Py2="7488" Cl="105,195,80" Nio="45" LtE="474707988" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="" P1="4.16" P2="11" SpStates="1c4b7832-00d1-f3fd-ffffe2c9b019b6c8,1c4b7832-00d1-f3fe-ffffe2c9b019b6c8,1c4b7832-00d1-f3ff-ffffe2c9b019b6c8,1c4b7832-00d1-f400-ffffe2c9b019b6c8,1c4b7832-00d1-f401-ffffe2c9b019b6c8,1c4b7832-00d1-f402-ffffe2c9b019b6c8" TRK_NE="100" TRK_MAX="100">
 					<statGrp id="1" m="10"/>
 					<statGrp id="2" m="11" acc="true"/>
 					<Co K="allow" Inv="true" U="1c4b7832-00d1-f3a0-ffffe2c9b019b6c8"/>
@@ -1780,8 +1782,8 @@ Formel Preisberechnung: ((I1*1,03)+0,015)*1,20"/>
 					<Co K="outPrice" U="1c4b7832-00d1-f3cb-ffffe2c9b019b6c8"/>
 					<Co K="outUserId" U="1c4b7832-00d1-f3cc-ffffe2c9b019b6c8"/>
 					<Co K="OutputAPI" Nc="2" U="1c4b7832-00d1-f3cd-ffffe2c9b019b6c8">
-						<In Input="1c4b7832-00d1-f3ce-ffffe2c9b019b6c8" Hidden="true"/>
 						<In Input="1c4b7832-00d1-f3cf-ffffe2c9b019b6c8" Hidden="true"/>
+						<In Input="1c4b7832-00d1-f3ce-ffffe2c9b019b6c8" Hidden="true"/>
 					</Co>
 					<IoData Visu="true" Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7" Rating="4" UseInFav="true"/>
 					<Modes>
@@ -1793,7 +1795,7 @@ Formel Preisberechnung: ((I1*1,03)+0,015)*1,20"/>
 						<Mode N="Fixer Sollwert" I="true" Ix="99"/>
 					</Modes>
 				</C>
-				<C Type="TextGenerator" V="163" U="1c4b7832-00d1-f3d0-ffffe2c9b019b6c8" Title="O43604" Px="13440" Py="6240" Px2="14784" Py2="7680" Cl="105,195,80" Nio="17" LtE="474708135" WF="16384" Text="&lt;v1&gt;;KENNZEICHEN;-" Text2="" Text3="&lt;v2.2&gt;" Text4="" Text5="">
+				<C Type="TextGenerator" V="163" U="1c4b7832-00d1-f3d0-ffffe2c9b019b6c8" Title="O43604" Px="13440" Py="6240" Px2="14784" Py2="7680" Cl="105,195,80" Nio="17" LtE="474708135" Text="&lt;v1&gt;;KENNZEICHEN;-" Text2="" Text3="&lt;v2.2&gt;" Text4="" Text5="">
 					<Co K="Trigger" Nc="1" U="1c4b7832-00d1-f3d1-ffffe2c9b019b6c8">
 						<In Input="1c4b7832-00d1-f3ca-ffffe2c9b019b6c8"/>
 					</Co>
@@ -1816,38 +1818,38 @@ Formel Preisberechnung: ((I1*1,03)+0,015)*1,20"/>
 					<Co K="TQ4" U="1c4b7832-00d1-f3e2-ffffe2c9b019b6c8"/>
 					<Co K="OutputAPI" U="1c4b7832-00d1-f3e3-ffffe2c9b019b6c8"/>
 				</C>
-				<C Type="Text" V="163" U="1c4b7832-00d1-f3e5-ffffe2c9b019b6c8" Title="Notiz" Px="13440" Py="5280" Px2="16554" Py2="6060" Cl="255,249,196" LtE="474708174" WF="16384" Text="Hier wird mit Verzögerung der 
+				<C Type="Text" V="163" U="1c4b7832-00d1-f3e5-ffffe2c9b019b6c8" Title="Notiz" Px="13440" Py="5280" Px2="16434" Py2="6060" Cl="255,249,196" LtE="474708174" Text="Hier wird mit Verzögerung der 
 Text für das Logging erzeugt.
 Da kein flexibler Tarif berechnet wird,
 wird hier &quot;;-&quot; am Ende geführt."/>
-				<C Type="Text" V="163" U="1c4b783f-00aa-0e1b-ffff7e7dcca6b5e7" Title="Notiz" Px="5952" Py="7872" Px2="10590" Py2="8268" Cl="255,249,196" LtE="474708082" WF="16384" Text="Hier sollte die Wallbox verbunden sein, wie im Blatt 4b.
+				<C Type="Text" V="163" U="1c4b783f-00aa-0e1b-ffff7e7dcca6b5e7" Title="Notiz" Px="5952" Py="7872" Px2="10326" Py2="8268" Cl="255,249,196" LtE="474708082" Text="Hier sollte die Wallbox verbunden sein, wie im Blatt 4b.
 Das geht aber nur 1x pro Wallbox."/>
-				<C Type="Text" V="163" U="1c4b78dc-00ff-51df-ffff7e7dcca6b5e7" Title="Notiz" Px="4608" Py="4416" Px2="11791" Py2="5388" Cl="255,249,196" LtE="474708500" WF="16384" Text="In der Konfiguration des Bausteins kann man (leider nur) fixe Tarife hinterlegen.
+				<C Type="Text" V="163" U="1c4b78dc-00ff-51df-ffff7e7dcca6b5e7" Title="Notiz" Px="4608" Py="4416" Px2="11396" Py2="5388" Cl="255,249,196" LtE="474708500" Text="In der Konfiguration des Bausteins kann man (leider nur) fixe Tarife hinterlegen.
 Achtung, möchte man mit Arbeitgeber/Finanzamt abrechnen, so muss (zumindest
 in Österreich) ein regelmässig neu berechneter Tarif angewendet werden.
 Hoffentlich gibt es von Loxone hier bald entsprechende Eingänge.
 Infos dazu: https://www.wko.at/lohnverrechnung/aufladen-elektrofahrzeuge-arbeitsplatz"/>
-				<C Type="OutputRef" V="163" U="1c4b7832-00d1-f3f1-ffffe2c9b019b6c8" Title="API Connector" Px="8256" Py="7488" Px2="10368" Py2="7680" Cl="238,238,238" Nio="2" RefL="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Ref2="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" WF="16384" Text="true" LinkRefType="136">
+				<C Type="OutputRef" V="163" U="1c4b7832-00d1-f3f1-ffffe2c9b019b6c8" Title="API Connector" Px="8256" Py="7488" Px2="10368" Py2="7680" Cl="238,238,238" Nio="2" RefL="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Ref2="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Text="true" LinkRefType="136">
 					<Co K="AI" Nc="1" U="1c4b7832-00d1-f3cf-ffffe2c9b019b6c8">
 						<In Input="1c4b7832-00d1-f3cd-ffffe2c9b019b6c8"/>
 					</Co>
 					<Co K="AQ" U="1c4b7832-00d1-f3f4-ffffe2c9b019b6c8"/>
 				</C>
-				<C Type="OutputRefLM" V="163" U="1c4b7832-00d1-f3f5-ffffe2c9b019b6c8" Title="Tracker Wallbox" Px="15744" Py="6528" Px2="17856" Py2="6720" Cl="238,238,238" Nio="2" Ref="1c4b7462-0155-618d-ffff7e7dcca6b5e7" RefL="1c4b7462-0155-618d-ffff7e7dcca6b5e7" Ref2="1c4b7462-0155-618d-ffff7e7dcca6b5e7" WF="16384">
+				<C Type="OutputRefLM" V="163" U="1c4b7832-00d1-f3f5-ffffe2c9b019b6c8" Title="Tracker Wallbox" Px="15744" Py="6528" Px2="17856" Py2="6720" Cl="238,238,238" Nio="2" Ref="1c4b7462-0155-618d-ffff7e7dcca6b5e7" RefL="1c4b7462-0155-618d-ffff7e7dcca6b5e7" Ref2="1c4b7462-0155-618d-ffff7e7dcca6b5e7" WF="131072">
 					<Co K="AI" Nc="1" U="1c4b7832-00d1-f3f6-ffffe2c9b019b6c8">
 						<In Input="1c4b7832-00d1-f3de-ffffe2c9b019b6c8"/>
 					</Co>
 					<Co K="AQ" U="1c4b7832-00d1-f3f8-ffffe2c9b019b6c8"/>
 					<LoggerMailer RefTracker="1c4b7462-0155-618d-ffff7e7dcca6b5e7" On="&lt;v&gt;" Off="&lt;v&gt;" MinimumTime="5000"/>
 				</C>
-				<C Type="OutputRefLM" V="163" U="1c4b7832-00d1-f3f9-ffffe2c9b019b6c8" Title="Logger Wallbox" Px="15744" Py="6336" Px2="17856" Py2="6528" Cl="238,238,238" Nio="2" Ref="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" RefL="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" Ref2="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" WF="16384">
+				<C Type="OutputRefLM" V="163" U="1c4b7832-00d1-f3f9-ffffe2c9b019b6c8" Title="Logger Wallbox" Px="15744" Py="6336" Px2="17856" Py2="6528" Cl="238,238,238" Nio="2" Ref="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" RefL="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" Ref2="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" WF="131072">
 					<Co K="AI" Nc="1" U="1c4b7832-00d1-f3fa-ffffe2c9b019b6c8">
 						<In Input="1c4b7832-00d1-f3de-ffffe2c9b019b6c8"/>
 					</Co>
 					<Co K="AQ" U="1c4b7832-00d1-f3fc-ffffe2c9b019b6c8"/>
 					<LoggerMailer RefLogger="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" On="&lt;v&gt;" Off="&lt;v&gt;" MinimumTime="5000"/>
 				</C>
-				<C Type="OutputRef" V="163" U="1c4b7832-00d1-f3ed-ffffe2c9b019b6c8" Title="API Connector" Px="8256" Py="7296" Px2="10368" Py2="7488" Cl="238,238,238" Nio="2" Ref="1c4b7434-010c-5456-ffff7e7dcca6b5e7" RefL="1c4b7434-010c-5456-ffff7e7dcca6b5e7" Ref2="1c4b7434-010c-5456-ffff7e7dcca6b5e7" WF="16384" Text="true" LinkRefType="136">
+				<C Type="OutputRef" V="163" U="1c4b7832-00d1-f3ed-ffffe2c9b019b6c8" Title="API Connector" Px="8256" Py="7296" Px2="10368" Py2="7488" Cl="238,238,238" Nio="2" Ref="1c4b7434-010c-5456-ffff7e7dcca6b5e7" RefL="1c4b7434-010c-5456-ffff7e7dcca6b5e7" Ref2="1c4b7434-010c-5456-ffff7e7dcca6b5e7" Text="true" LinkRefType="136">
 					<Co K="AI" Nc="1" U="1c4b7832-00d1-f3ce-ffffe2c9b019b6c8">
 						<In Input="1c4b7832-00d1-f3cd-ffffe2c9b019b6c8"/>
 					</Co>
@@ -1856,7 +1858,7 @@ Infos dazu: https://www.wko.at/lohnverrechnung/aufladen-elektrofahrzeuge-arbeits
 			</C>
 			<C Type="Page" V="163" U="1c4b76e7-0147-10bf-ffff7e7dcca6b5e7" Title="4b. Wallbox mit PV und Epex" LtE="474708001" WF="16384">
 				<IoData Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7"/>
-				<C Type="InputRef" V="163" U="1c4b7700-0003-283b-ffff7e7dcca6b5e7" Title="Total active Power" Px="1344" Py="5952" Px2="3456" Py2="6144" Cl="238,238,238" Nio="4" Ref="1c4b7407-038c-4809-ffff7e7dcca6b5e7" RefL="1c4b7407-038c-4809-ffff7e7dcca6b5e7" Ref2="1c4b7407-038c-4809-ffff7e7dcca6b5e7" WF="147456" Analog="true" LinkRefType="153">
+				<C Type="InputRef" V="163" U="1c4b7700-0003-283b-ffff7e7dcca6b5e7" Title="Total active Power" Px="1344" Py="5952" Px2="3456" Py2="6144" Cl="238,238,238" Nio="4" Ref="1c4b7407-038c-4809-ffff7e7dcca6b5e7" RefL="1c4b7407-038c-4809-ffff7e7dcca6b5e7" Ref2="1c4b7407-038c-4809-ffff7e7dcca6b5e7" WF="131072" Analog="true" LinkRefType="153">
 					<Co K="AI" Nc="1" U="1c4b7700-0003-2837-00ffc000d9726ba5">
 						<In Input="1c4b7407-038c-4807-00ffda2acf93df24"/>
 					</Co>
@@ -1866,7 +1868,7 @@ Infos dazu: https://www.wko.at/lohnverrechnung/aufladen-elektrofahrzeuge-arbeits
 					<Co K="AQ" U="1c4b7700-0003-2839-02ffc000d9726ba5"/>
 					<Co K="Q" U="1c4b7700-0003-283a-03ffc000d9726ba5"/>
 				</C>
-				<C Type="InputRef" V="163" U="1c4b7742-0273-8732-ffff7e7dcca6b5e7" Title="Einspeisetarif" Px="5952" Py="2784" Px2="8064" Py2="2976" Cl="238,238,238" Nio="4" Ref="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" RefL="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" Ref2="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" WF="147456" Analog="true" LinkRefType="17">
+				<C Type="InputRef" V="163" U="1c4b7742-0273-8732-ffff7e7dcca6b5e7" Title="Einspeisetarif" Px="5952" Py="2784" Px2="8064" Py2="2976" Cl="238,238,238" Nio="4" Ref="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" RefL="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" Ref2="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" WF="131072" Analog="true" LinkRefType="17">
 					<Co K="AI" Nc="1" U="1c4b7742-0273-872e-00ffe0980b4e5d9d">
 						<In Input="1c4b773a-013d-7d23-00ffca8ebd6d969e"/>
 					</Co>
@@ -1874,7 +1876,7 @@ Infos dazu: https://www.wko.at/lohnverrechnung/aufladen-elektrofahrzeuge-arbeits
 					<Co K="AQ" U="1c4b7742-0273-8730-02ffe0980b4e5d9d"/>
 					<Co K="Q" U="1c4b7742-0273-8731-03ffe0980b4e5d9d"/>
 				</C>
-				<C Type="Wallbox" V="163" U="1c4b76f1-03ca-1dac-ffffbf487197726b" Title="Wallbox" StatsType="8" StatsAutoDel="1" Px="4416" Py="5280" Px2="7104" Py2="7872" Cl="105,195,80" Nio="45" LtE="474707988" WF="16384" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="" P1="4.16" P2="11" SpStates="1c4b76f1-03cb-1e69-ffffbf487197726b,1c4b76f1-03cb-1e6a-ffffbf487197726b,1c4b76f1-03cb-1e6b-ffffbf487197726b,1c4b76f1-03cb-1e6c-ffffbf487197726b,1c4b76f1-03cb-1e6d-ffffbf487197726b,1c4b76f1-03cb-1e6e-ffffbf487197726b" TRK_NE="100" TRK_MAX="100">
+				<C Type="Wallbox" V="163" U="1c4b76f1-03ca-1dac-ffffbf487197726b" Title="Wallbox" StatsType="8" StatsAutoDel="1" Px="4416" Py="5280" Px2="7104" Py2="8064" Cl="105,195,80" Nio="45" LtE="474707988" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="" P1="4.16" P2="11" SpStates="1c4b76f1-03cb-1e69-ffffbf487197726b,1c4b76f1-03cb-1e6a-ffffbf487197726b,1c4b76f1-03cb-1e6b-ffffbf487197726b,1c4b76f1-03cb-1e6c-ffffbf487197726b,1c4b76f1-03cb-1e6d-ffffbf487197726b,1c4b76f1-03cb-1e6e-ffffbf487197726b" TRK_NE="100" TRK_MAX="100">
 					<statGrp id="1" m="10"/>
 					<statGrp id="2" m="11" acc="true"/>
 					<Co K="allow" Inv="true" U="1c4b76f1-03ca-1dad-ffffbf487197726b"/>
@@ -1926,8 +1928,8 @@ Infos dazu: https://www.wko.at/lohnverrechnung/aufladen-elektrofahrzeuge-arbeits
 					<Co K="outPrice" U="1c4b76f1-03ca-1dd8-ffffbf487197726b"/>
 					<Co K="outUserId" U="1c4b76f1-03ca-1dd9-ffffbf487197726b"/>
 					<Co K="OutputAPI" Nc="2" U="1c4b76f1-03ca-1dda-ffffbf487197726b">
-						<In Input="1c4b770c-01ae-3fba-00ff389e9d3eefce" Hidden="true"/>
 						<In Input="1c4b770f-0237-4969-00ff85dd38efa46b" Hidden="true"/>
+						<In Input="1c4b770c-01ae-3fba-00ff389e9d3eefce" Hidden="true"/>
 					</Co>
 					<IoData Visu="true" Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7" Rating="4" UseInFav="true"/>
 					<Modes>
@@ -1939,7 +1941,7 @@ Infos dazu: https://www.wko.at/lohnverrechnung/aufladen-elektrofahrzeuge-arbeits
 						<Mode N="Fixer Sollwert" I="true" Ix="99"/>
 					</Modes>
 				</C>
-				<C Type="TextGenerator" V="163" U="1c4b76f1-03ca-1ddd-ffffbf487197726b" Title="O43604" Px="18720" Py="7392" Px2="20064" Py2="8832" Cl="105,195,80" Nio="17" LtE="474309500" WF="16384" Text="&lt;v1&gt;;KENNZEICHEN;&lt;v2.2&gt;" Text2="" Text3="&lt;v2.2&gt;" Text4="" Text5="">
+				<C Type="TextGenerator" V="163" U="1c4b76f1-03ca-1ddd-ffffbf487197726b" Title="O43604" Px="18720" Py="7392" Px2="20064" Py2="8832" Cl="105,195,80" Nio="17" LtE="474309500" Text="&lt;v1&gt;;KENNZEICHEN;&lt;v2.2&gt;" Text2="" Text3="&lt;v2.2&gt;" Text4="" Text5="">
 					<Co K="Trigger" Nc="1" U="1c4b76f1-03ca-1dde-ffffbf487197726b">
 						<In Input="1c4b76f1-03ca-1dd7-ffffbf487197726b"/>
 					</Co>
@@ -1964,7 +1966,7 @@ Infos dazu: https://www.wko.at/lohnverrechnung/aufladen-elektrofahrzeuge-arbeits
 					<Co K="TQ4" U="1c4b76f1-03ca-1df0-ffffbf487197726b"/>
 					<Co K="OutputAPI" U="1c4b76f1-03ca-1df1-ffffbf487197726b"/>
 				</C>
-				<C Type="AnalogMultiplexer" V="163" U="1c4b76f1-03ca-1df2-ffffbf487197726b" Title="O45940" Px="14208" Py="3936" Px2="15552" Py2="5184" Cl="105,195,80" Nio="7" LtE="474297300" WF="16384">
+				<C Type="AnalogMultiplexer" V="163" U="1c4b76f1-03ca-1df2-ffffbf487197726b" Title="O45940" Px="14208" Py="3936" Px2="15552" Py2="5184" Cl="105,195,80" Nio="7" LtE="474297300" WF="131072">
 					<Co K="Input1" Def="0.25" U="1c4b76f1-03ca-1df3-ffffbf487197726b"/>
 					<Co K="Input2" Def="0.25" U="1c4b76f1-03ca-1df4-ffffbf487197726b"/>
 					<Co K="Input3" Nc="1" U="1c4b76f1-03ca-1df5-ffffbf487197726b">
@@ -1977,7 +1979,7 @@ Infos dazu: https://www.wko.at/lohnverrechnung/aufladen-elektrofahrzeuge-arbeits
 					</Co>
 					<Co K="AQ" U="1c4b76f1-03ca-1dfb-ffffbf487197726b"/>
 				</C>
-				<C Type="Avg" V="163" U="1c4b76f1-03ca-1dfc-ffffbf487197726b" Title="O45941" Px="12288" Py="3456" Px2="13632" Py2="4320" Cl="105,195,80" Nio="6" LtE="474300256" WF="16384">
+				<C Type="Avg" V="163" U="1c4b76f1-03ca-1dfc-ffffbf487197726b" Title="O45941" Px="12288" Py="3456" Px2="13632" Py2="4320" Cl="105,195,80" Nio="6" LtE="474300256">
 					<Co K="Input" Nc="1" U="1c4b76f1-03ca-1dfd-ffffbf487197726b">
 						<In Input="1c4b76f1-03ca-1dfe-ffffbf487197726b"/>
 					</Co>
@@ -1989,7 +1991,7 @@ Infos dazu: https://www.wko.at/lohnverrechnung/aufladen-elektrofahrzeuge-arbeits
 					<Co K="Max" Def="24" U="1c4b76f1-03ca-1e03-ffffbf487197726b"/>
 					<Co K="AQ" U="1c4b76f1-03ca-1df6-ffffbf487197726b"/>
 				</C>
-				<C Type="EdgeDetection" V="163" U="1c4b76f1-03ca-1e05-ffffbf487197726b" Title="O45948" Px="8256" Py="4608" Px2="9600" Py2="5472" Cl="105,195,80" Nio="5" WF="16384">
+				<C Type="EdgeDetection" V="163" U="1c4b76f1-03ca-1e05-ffffbf487197726b" Title="O45948" Px="8256" Py="4608" Px2="9600" Py2="5472" Cl="105,195,80" Nio="5" WF="131072">
 					<Co K="Input" Nc="1" U="1c4b76f1-03ca-1e06-ffffbf487197726b">
 						<In Input="1c4b76f1-03ca-1dc6-ffffbf487197726b"/>
 					</Co>
@@ -1998,7 +2000,7 @@ Infos dazu: https://www.wko.at/lohnverrechnung/aufladen-elektrofahrzeuge-arbeits
 					<Co K="RisingEdge" U="1c4b76f1-03ca-1e0a-ffffbf487197726b"/>
 					<Co K="FallingEdge" U="1c4b76f1-03ca-1e0b-ffffbf487197726b"/>
 				</C>
-				<C Type="OnPulseDelay" V="163" U="1c4b76f1-03ca-1e0c-ffffbf487197726b" Title="O45949" Px="10368" Py="4032" Px2="11712" Py2="4704" Cl="105,195,80" Nio="6" LtE="474299345" WF="16384">
+				<C Type="OnPulseDelay" V="163" U="1c4b76f1-03ca-1e0c-ffffbf487197726b" Title="O45949" Px="10368" Py="4032" Px2="11712" Py2="4704" Cl="105,195,80" Nio="6" LtE="474299345">
 					<Co K="InputTrigger" Nc="1" U="1c4b76f1-03ca-1e0d-ffffbf487197726b">
 						<In Input="1c4b76f1-03ca-1e09-ffffbf487197726b"/>
 					</Co>
@@ -2008,7 +2010,7 @@ Infos dazu: https://www.wko.at/lohnverrechnung/aufladen-elektrofahrzeuge-arbeits
 					<Co K="Time" Def="0.5" U="1c4b76f1-03ca-1e12-ffffbf487197726b"/>
 					<Co K="Q" U="1c4b76f1-03ca-1e00-ffffbf487197726b"/>
 				</C>
-				<C Type="Mult" V="163" U="1c4b76f1-03ca-1e14-ffffbf487197726b" Title="O45950" Px="16320" Py="5088" Px2="17664" Py2="5760" Cl="105,195,80" Nio="3" WF="16384">
+				<C Type="Mult" V="163" U="1c4b76f1-03ca-1e14-ffffbf487197726b" Title="O45950" Px="16320" Py="5088" Px2="17664" Py2="5760" Cl="105,195,80" Nio="3">
 					<Co K="Input1" Nc="1" U="1c4b76f1-03ca-1e15-ffffbf487197726b">
 						<In Input="1c4b76f1-03ca-1dfb-ffffbf487197726b"/>
 					</Co>
@@ -2017,7 +2019,7 @@ Infos dazu: https://www.wko.at/lohnverrechnung/aufladen-elektrofahrzeuge-arbeits
 					</Co>
 					<Co K="AQ" U="1c4b76f1-03ca-1de3-ffffbf487197726b"/>
 				</C>
-				<C Type="State" V="163" U="1c4b76f1-03ca-1e1a-ffffbf487197726b" Title="PV oder Epex" Px="9024" Py="2112" Px2="11712" Py2="3360" Cl="105,195,80" Nio="7" LtE="474707988" WF="16384">
+				<C Type="State" V="163" U="1c4b76f1-03ca-1e1a-ffffbf487197726b" Title="PV oder Epex" Px="9024" Py="2112" Px2="11712" Py2="3360" Cl="105,195,80" Nio="7" LtE="474707988">
 					<Co K="I1" Nc="1" U="1c4b76f1-03ca-1e1b-ffffbf487197726b">
 						<In Input="1c4b74a8-0079-8a28-16fffba3e59a7c8a" CF="true"/>
 					</Co>
@@ -2039,18 +2041,18 @@ Infos dazu: https://www.wko.at/lohnverrechnung/aufladen-elektrofahrzeuge-arbeits
 						<StateText Valid="true" ValidV="true" Text="" TextV="0" Icon="00000000-0000-0000-0000000000000000" IcC="5292905"/>
 					</StateTexts>
 				</C>
-				<C Type="Text" V="163" U="1c4b76f1-03ca-1e23-ffffbf487197726b" Title="Notiz" Px="7104" Py="1440" Px2="11857" Py2="2028" Cl="255,249,196" LtE="474299305" WF="16384" Text="Hier wird bei PV Überschuss (vom Energiemanager) mit 
+				<C Type="Text" V="163" U="1c4b76f1-03ca-1e23-ffffbf487197726b" Title="Notiz" Px="7104" Py="1440" Px2="11685" Py2="2028" Cl="255,249,196" LtE="474299305" Text="Hier wird bei PV Überschuss (vom Energiemanager) mit 
 0eur oder alternativ Einspeisetarif gerechnet.
 Sonst wird der aktuelle Epex Tarif angewendet."/>
-				<C Type="Text" V="163" U="1c4b76f1-03ca-1e24-ffffbf487197726b" Title="Notiz" Px="12288" Py="2880" Px2="15561" Py2="3276" Cl="255,249,196" LtE="474299414" WF="16384" Text="Hier wird der gleitende Mittelwert
+				<C Type="Text" V="163" U="1c4b76f1-03ca-1e24-ffffbf487197726b" Title="Notiz" Px="12288" Py="2880" Px2="15350" Py2="3276" Cl="255,249,196" LtE="474299414" Text="Hier wird der gleitende Mittelwert
 während einer Ladesession berechnet."/>
-				<C Type="Text" V="163" U="1c4b76f1-03ca-1e25-ffffbf487197726b" Title="Notiz" Px="14208" Py="3456" Px2="19507" Py2="3852" Cl="255,249,196" LtE="474299467" WF="16384" Text="Hier wird entsprechend dem ausgewählten Lademodi entweder 
+				<C Type="Text" V="163" U="1c4b76f1-03ca-1e25-ffffbf487197726b" Title="Notiz" Px="14208" Py="3456" Px2="19226" Py2="3852" Cl="255,249,196" LtE="474299467" Text="Hier wird entsprechend dem ausgewählten Lademodi entweder 
 ein Fixtarif oder der gleitende Mittelwert verwendet."/>
-				<C Type="Text" V="163" U="1c4b76f1-03ca-1e26-ffffbf487197726b" Title="Notiz" Px="13440" Py="6432" Px2="17848" Py2="6828" Cl="255,249,196" LtE="474299578" WF="16384" Text="Hier wird bei Ende der Ladesession die verbrauchte 
+				<C Type="Text" V="163" U="1c4b76f1-03ca-1e26-ffffbf487197726b" Title="Notiz" Px="13440" Py="6432" Px2="17584" Py2="6828" Cl="255,249,196" LtE="474299578" Text="Hier wird bei Ende der Ladesession die verbrauchte 
 Energie gesetzt und mit dem Mittelwert multipliziert."/>
-				<C Type="Text" V="163" U="1c4b76f1-03ca-1e27-ffffbf487197726b" Title="Notiz" Px="18720" Py="6816" Px2="21303" Py2="7212" Cl="255,249,196" LtE="474299882" WF="16384" Text="Hier wird mit Verzögerung der 
+				<C Type="Text" V="163" U="1c4b76f1-03ca-1e27-ffffbf487197726b" Title="Notiz" Px="18720" Py="6816" Px2="21231" Py2="7212" Cl="255,249,196" LtE="474299882" Text="Hier wird mit Verzögerung der 
 Text für das Logging erzeugt."/>
-				<C Type="MeterAbsUni" V="163" U="1c4b76f1-03ca-1e28-ffffbf487197726b" Title="Wallbox Ladekosten" StatsType="8" Px="21120" Py="1152" Px2="23808" Py2="2208" Cl="105,195,80" Nio="15" LtE="474707988" WF="16384" PwrN="Kosten" Un1="&lt;v.2&gt;€" Un2="&lt;v.1&gt;€" Rec="">
+				<C Type="MeterAbsUni" V="163" U="1c4b76f1-03ca-1e28-ffffbf487197726b" Title="Wallbox Ladekosten" StatsType="8" Px="21120" Py="1152" Px2="23808" Py2="2208" Cl="105,195,80" Nio="15" LtE="474707988" PwrN="Kosten" Un1="&lt;v.2&gt;€" Un2="&lt;v.1&gt;€" Rec="">
 					<statGrp id="1" m="10"/>
 					<statGrp id="2" m="11" acc="true"/>
 					<Co K="Pf" Nc="1" U="1c4b76f1-03ca-1e29-ffffbf487197726b">
@@ -2072,7 +2074,7 @@ Text für das Logging erzeugt."/>
 					<Co K="OutputAPI" U="1c4b76f1-03ca-1e38-ffffbf487197726b"/>
 					<IoData Visu="true" Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7" IconV="1b6f599c-03bf-9569-ffffed57184a04d2"/>
 				</C>
-				<C Type="MeterAbsUni" V="163" U="1c4b76f1-03ca-1e39-ffffbf487197726b" Title="Wallbox" StatsType="8" Px="21120" Py="2400" Px2="23808" Py2="3456" Cl="105,195,80" Nio="15" LtE="474707988" WF="1073758208" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="">
+				<C Type="MeterAbsUni" V="163" U="1c4b76f1-03ca-1e39-ffffbf487197726b" Title="Wallbox" StatsType="8" Px="21120" Py="2400" Px2="23808" Py2="3456" Cl="105,195,80" Nio="15" LtE="474707988" WF="1073741824" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="">
 					<statGrp id="1" m="10"/>
 					<statGrp id="2" m="11" acc="true"/>
 					<Co K="Pf" Nc="1" U="1c4b76f1-03ca-1e3a-ffffbf487197726b">
@@ -2094,7 +2096,7 @@ Text für das Logging erzeugt."/>
 					<Co K="OutputAPI" U="1c4b76f1-03ca-1e49-ffffbf487197726b"/>
 					<IoData Visu="true" Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7" IconV="0000008e-00ff-0000-0000000000000000"/>
 				</C>
-				<C Type="AMemory" V="163" U="1c4b76f1-03ca-1e4a-ffffbf487197726b" Title="O45976" Px="14208" Py="5280" Px2="15552" Py2="6336" Cl="105,195,80" Nio="5" LtE="474706591" WF="16384">
+				<C Type="AMemory" V="163" U="1c4b76f1-03ca-1e4a-ffffbf487197726b" Title="O45976" Px="14208" Py="5280" Px2="15552" Py2="6336" Cl="105,195,80" Nio="5" LtE="474706591" WF="131072">
 					<Co K="Input" Nc="1" U="1c4b76f1-03ca-1e4b-ffffbf487197726b">
 						<In Input="1c4b76f1-03ca-1dcd-ffffbf487197726b"/>
 					</Co>
@@ -2107,7 +2109,7 @@ Text für das Logging erzeugt."/>
 					<Co K="Remanence" Inv="true" U="1c4b76f1-03ca-1e51-ffffbf487197726b"/>
 					<Co K="AQ" U="1c4b76f1-03ca-1e18-ffffbf487197726b"/>
 				</C>
-				<C Type="Mult" V="163" U="1c4b76f1-03ca-1e53-ffffbf487197726b" Title="O46546" Px="18816" Py="1344" Px2="20160" Py2="2016" Cl="105,195,80" Nio="3" WF="16384">
+				<C Type="Mult" V="163" U="1c4b76f1-03ca-1e53-ffffbf487197726b" Title="O46546" Px="18816" Py="1344" Px2="20160" Py2="2016" Cl="105,195,80" Nio="3">
 					<Co K="Input1" Nc="1" U="1c4b76f1-03ca-1e54-ffffbf487197726b">
 						<In Input="1c4b76f1-03ca-1dfe-ffffbf487197726b" CF="true"/>
 					</Co>
@@ -2116,40 +2118,42 @@ Text für das Logging erzeugt."/>
 					</Co>
 					<Co K="AQ" U="1c4b76f1-03ca-1e2a-ffffbf487197726b"/>
 				</C>
-				<C Type="Text" V="163" U="1c4b7a29-036e-7666-ffff7e7dcca6b5e7" Title="Notiz" Px="864" Py="5568" Px2="3619" Py2="5964" Cl="255,249,196" LtE="474708547" WF="16384" Text="Hier muss der Energiezähler der
+				<C Type="Text" V="163" U="1c4b7a29-036e-7666-ffff7e7dcca6b5e7" Title="Notiz" Px="864" Py="5376" Px2="3513" Py2="5772" Cl="255,249,196" LtE="474708547" Text="Hier muss der Energiezähler der
 Wallbox verbunden sein."/>
-				<C Type="Text" V="163" U="1c4e30ff-0164-504c-ffff4e07a2af5f76" Title="Notiz" Px="96" Py="6624" Px2="3714" Py2="7020" Cl="255,249,196" LtE="474886476" WF="16384" Text="Der Analogausgang des Energiemanagers 
-kann hier angeschlossen werden."/>
-				<C Type="OutputRef" V="163" U="1c4b770c-01ae-3fbc-ffff7e7dcca6b5e7" Title="API Connector" Px="8064" Py="8064" Px2="10176" Py2="8256" Cl="238,238,238" Nio="2" Ref="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" RefL="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Ref2="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" WF="16384" Text="true" LinkRefType="136">
-					<Co K="AI" Nc="1" U="1c4b770c-01ae-3fba-00ff389e9d3eefce">
-						<In Input="1c4b76f1-03ca-1dda-ffffbf487197726b"/>
-					</Co>
-					<Co K="AQ" U="1c4b770c-01ae-3fbb-01ff389e9d3eefce"/>
-				</C>
-				<C Type="OutputRefLM" V="163" U="1c4b77db-02e3-f537-ffff7e7dcca6b5e7" Title="Tracker Wallbox" Px="21024" Py="7680" Px2="23136" Py2="7872" Cl="238,238,238" Nio="2" Ref="1c4b7462-0155-618d-ffff7e7dcca6b5e7" RefL="1c4b7462-0155-618d-ffff7e7dcca6b5e7" Ref2="1c4b7462-0155-618d-ffff7e7dcca6b5e7" WF="16384">
-					<Co K="AI" Nc="1" U="1c4b77db-02e3-f535-00ff50d0f54603ef">
-						<In Input="1c4b76f1-03ca-1dec-ffffbf487197726b"/>
-					</Co>
-					<Co K="AQ" U="1c4b77db-02e3-f536-01ff50d0f54603ef"/>
-					<LoggerMailer RefTracker="1c4b7462-0155-618d-ffff7e7dcca6b5e7" On="&lt;v&gt;" Off="&lt;v&gt;" MinimumTime="5000"/>
-				</C>
-				<C Type="OutputRefLM" V="163" U="1c4b77e0-00a9-fa0e-ffff7e7dcca6b5e7" Title="Logger Wallbox" Px="21024" Py="7488" Px2="23136" Py2="7680" Cl="238,238,238" Nio="2" Ref="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" RefL="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" Ref2="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" WF="16384">
+				<C Type="Text" V="163" U="1c4e30ff-0164-504c-ffff4e07a2af5f76" Title="Notiz" Px="96" Py="6624" Px2="3503" Py2="7020" Cl="255,249,196" LtE="475398107" Text="Der Analogausgang des Energiemanagers 
+kann bei Lm3 angeschlossen werden."/>
+				<C Type="Text" V="163" U="1c55ff2e-0330-d994-ffff0bf97e71c14a" Title="To-do" Px="19968" Py="672" Px2="23375" Py2="1068" Cl="255,200,100" LtE="475397923" Text="Hier muss noch korrekt gerechnet werden,
+da brauche ich aber noch ein paar Daten." Td="true"/>
+				<C Type="OutputRefLM" V="163" U="1c4b77e0-00a9-fa0e-ffff7e7dcca6b5e7" Title="Logger Wallbox" Px="21024" Py="7488" Px2="23136" Py2="7680" Cl="238,238,238" Nio="2" Ref="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" RefL="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" Ref2="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" WF="131072">
 					<Co K="AI" Nc="1" U="1c4b77e0-00a9-fa0c-00ff74dbd390de15">
 						<In Input="1c4b76f1-03ca-1dec-ffffbf487197726b"/>
 					</Co>
 					<Co K="AQ" U="1c4b77e0-00a9-fa0d-01ff74dbd390de15"/>
 					<LoggerMailer RefLogger="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" On="&lt;v&gt;" Off="&lt;v&gt;" MinimumTime="5000"/>
 				</C>
-				<C Type="OutputRef" V="163" U="1c4b770f-0237-496b-ffff7e7dcca6b5e7" Title="API Connector" Px="8064" Py="8256" Px2="10176" Py2="8448" Cl="238,238,238" Nio="2" Ref="1c4b7434-010c-5456-ffff7e7dcca6b5e7" RefL="1c4b7434-010c-5456-ffff7e7dcca6b5e7" Ref2="1c4b7434-010c-5456-ffff7e7dcca6b5e7" WF="16384" Text="true" LinkRefType="136">
+				<C Type="OutputRef" V="163" U="1c4b770f-0237-496b-ffff7e7dcca6b5e7" Title="API Connector" Px="8064" Py="8256" Px2="10176" Py2="8448" Cl="238,238,238" Nio="2" Ref="1c4b7434-010c-5456-ffff7e7dcca6b5e7" RefL="1c4b7434-010c-5456-ffff7e7dcca6b5e7" Ref2="1c4b7434-010c-5456-ffff7e7dcca6b5e7" Text="true" LinkRefType="136">
 					<Co K="AI" Nc="1" U="1c4b770f-0237-4969-00ff85dd38efa46b">
 						<In Input="1c4b76f1-03ca-1dda-ffffbf487197726b"/>
 					</Co>
 					<Co K="AQ" U="1c4b770f-0237-496a-01ff85dd38efa46b"/>
 				</C>
+				<C Type="OutputRef" V="163" U="1c4b770c-01ae-3fbc-ffff7e7dcca6b5e7" Title="API Connector" Px="8064" Py="8064" Px2="10176" Py2="8256" Cl="238,238,238" Nio="2" Ref="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" RefL="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Ref2="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Text="true" LinkRefType="136">
+					<Co K="AI" Nc="1" U="1c4b770c-01ae-3fba-00ff389e9d3eefce">
+						<In Input="1c4b76f1-03ca-1dda-ffffbf487197726b"/>
+					</Co>
+					<Co K="AQ" U="1c4b770c-01ae-3fbb-01ff389e9d3eefce"/>
+				</C>
+				<C Type="OutputRefLM" V="163" U="1c4b77db-02e3-f537-ffff7e7dcca6b5e7" Title="Tracker Wallbox" Px="21024" Py="7680" Px2="23136" Py2="7872" Cl="238,238,238" Nio="2" Ref="1c4b7462-0155-618d-ffff7e7dcca6b5e7" RefL="1c4b7462-0155-618d-ffff7e7dcca6b5e7" Ref2="1c4b7462-0155-618d-ffff7e7dcca6b5e7" WF="131072">
+					<Co K="AI" Nc="1" U="1c4b77db-02e3-f535-00ff50d0f54603ef">
+						<In Input="1c4b76f1-03ca-1dec-ffffbf487197726b"/>
+					</Co>
+					<Co K="AQ" U="1c4b77db-02e3-f536-01ff50d0f54603ef"/>
+					<LoggerMailer RefTracker="1c4b7462-0155-618d-ffff7e7dcca6b5e7" On="&lt;v&gt;" Off="&lt;v&gt;" MinimumTime="5000"/>
+				</C>
 			</C>
 			<C Type="Page" V="163" U="1c4e3178-03cc-85a0-ffff7e7dcca6b5e7" Title="4c. Wallbox mit PV" WF="16384">
 				<IoData Cr="1c4b6ecb-00ca-6ecb-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00f2-6fa6-ffff7e7dcca6b5e7"/>
-				<C Type="InputRef" V="163" U="1c4e3314-0072-1e8f-ffff4b5efe8004cc" Title="Total active Power" Px="1536" Py="6336" Px2="3648" Py2="6528" Cl="238,238,238" Nio="4" Ref="1c4b7407-038c-4809-ffff7e7dcca6b5e7" RefL="1c4b7407-038c-4809-ffff7e7dcca6b5e7" Ref2="1c4b7407-038c-4809-ffff7e7dcca6b5e7" WF="147456" Analog="true" LinkRefType="153">
+				<C Type="InputRef" V="163" U="1c4e3314-0072-1e8f-ffff4b5efe8004cc" Title="Total active Power" Px="1536" Py="6336" Px2="3648" Py2="6528" Cl="238,238,238" Nio="4" Ref="1c4b7407-038c-4809-ffff7e7dcca6b5e7" RefL="1c4b7407-038c-4809-ffff7e7dcca6b5e7" Ref2="1c4b7407-038c-4809-ffff7e7dcca6b5e7" WF="131072" Analog="true" LinkRefType="153">
 					<Co K="AI" Nc="1" U="1c4e3314-0072-1e90-ffff4b5efe8004cc">
 						<In Input="1c4b7407-038c-4807-00ffda2acf93df24"/>
 					</Co>
@@ -2159,7 +2163,7 @@ kann hier angeschlossen werden."/>
 					<Co K="AQ" U="1c4e3314-0072-1e92-ffff4b5efe8004cc"/>
 					<Co K="Q" U="1c4e3314-0072-1e93-ffff4b5efe8004cc"/>
 				</C>
-				<C Type="InputRef" V="163" U="1c4e3314-0072-1e94-ffff4b5efe8004cc" Title="Einspeisetarif" Px="6048" Py="2784" Px2="8160" Py2="2976" Cl="238,238,238" Nio="4" Ref="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" RefL="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" Ref2="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" WF="147456" Analog="true" LinkRefType="17">
+				<C Type="InputRef" V="163" U="1c4e3314-0072-1e94-ffff4b5efe8004cc" Title="Einspeisetarif" Px="6048" Py="2784" Px2="8160" Py2="2976" Cl="238,238,238" Nio="4" Ref="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" RefL="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" Ref2="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" WF="131072" Analog="true" LinkRefType="17">
 					<Co K="AI" Nc="1" U="1c4e3314-0072-1e95-ffff4b5efe8004cc">
 						<In Input="1c4b773a-013d-7d23-00ffca8ebd6d969e"/>
 					</Co>
@@ -2167,7 +2171,7 @@ kann hier angeschlossen werden."/>
 					<Co K="AQ" U="1c4e3314-0072-1e97-ffff4b5efe8004cc"/>
 					<Co K="Q" U="1c4e3314-0072-1e98-ffff4b5efe8004cc"/>
 				</C>
-				<C Type="Wallbox" V="163" U="1c4e3314-0072-1e99-ffff4b5efe8004cc" Title="Wallbox" StatsType="8" StatsAutoDel="1" Px="4608" Py="5664" Px2="7296" Py2="8256" Cl="105,195,80" Nio="45" LtE="474707988" WF="16384" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="" P1="4.16" P2="11" SpStates="1c4e3314-0072-1f58-ffff4b5efe8004cc,1c4e3314-0072-1f59-ffff4b5efe8004cc,1c4e3314-0072-1f5a-ffff4b5efe8004cc,1c4e3314-0072-1f5b-ffff4b5efe8004cc,1c4e3314-0072-1f5c-ffff4b5efe8004cc,1c4e3314-0072-1f5d-ffff4b5efe8004cc" TRK_NE="100" TRK_MAX="100">
+				<C Type="Wallbox" V="163" U="1c4e3314-0072-1e99-ffff4b5efe8004cc" Title="Wallbox" StatsType="8" StatsAutoDel="1" Px="4608" Py="5664" Px2="7296" Py2="8448" Cl="105,195,80" Nio="45" LtE="474707988" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="" P1="4.16" P2="11" SpStates="1c4e3314-0072-1f58-ffff4b5efe8004cc,1c4e3314-0072-1f59-ffff4b5efe8004cc,1c4e3314-0072-1f5a-ffff4b5efe8004cc,1c4e3314-0072-1f5b-ffff4b5efe8004cc,1c4e3314-0072-1f5c-ffff4b5efe8004cc,1c4e3314-0072-1f5d-ffff4b5efe8004cc" TRK_NE="100" TRK_MAX="100">
 					<statGrp id="1" m="10"/>
 					<statGrp id="2" m="11" acc="true"/>
 					<Co K="allow" Inv="true" U="1c4e3314-0072-1e9a-ffff4b5efe8004cc"/>
@@ -2219,8 +2223,8 @@ kann hier angeschlossen werden."/>
 					<Co K="outPrice" U="1c4e3314-0072-1ec5-ffff4b5efe8004cc"/>
 					<Co K="outUserId" U="1c4e3314-0072-1ec6-ffff4b5efe8004cc"/>
 					<Co K="OutputAPI" Nc="2" U="1c4e3314-0072-1ec7-ffff4b5efe8004cc">
-						<In Input="1c4e3314-0072-1ec9-ffff4b5efe8004cc" Hidden="true"/>
 						<In Input="1c4e3314-0072-1ec8-ffff4b5efe8004cc" Hidden="true"/>
+						<In Input="1c4e3314-0072-1ec9-ffff4b5efe8004cc" Hidden="true"/>
 					</Co>
 					<IoData Visu="true" Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7" Rating="4" UseInFav="true"/>
 					<Modes>
@@ -2232,7 +2236,7 @@ kann hier angeschlossen werden."/>
 						<Mode N="Fixer Sollwert" I="true" Ix="99"/>
 					</Modes>
 				</C>
-				<C Type="TextGenerator" V="163" U="1c4e3314-0072-1eca-ffff4b5efe8004cc" Title="O43604" Px="18912" Py="7584" Px2="20256" Py2="9024" Cl="105,195,80" Nio="17" LtE="474309500" WF="16384" Text="&lt;v1&gt;;KENNZEICHEN;&lt;v2.2&gt;" Text2="" Text3="&lt;v2.2&gt;" Text4="" Text5="">
+				<C Type="TextGenerator" V="163" U="1c4e3314-0072-1eca-ffff4b5efe8004cc" Title="O43604" Px="18912" Py="7584" Px2="20256" Py2="9024" Cl="105,195,80" Nio="17" LtE="474309500" Text="&lt;v1&gt;;KENNZEICHEN;&lt;v2.2&gt;" Text2="" Text3="&lt;v2.2&gt;" Text4="" Text5="">
 					<Co K="Trigger" Nc="1" U="1c4e3314-0072-1ecb-ffff4b5efe8004cc">
 						<In Input="1c4e3314-0072-1ec4-ffff4b5efe8004cc"/>
 					</Co>
@@ -2257,7 +2261,7 @@ kann hier angeschlossen werden."/>
 					<Co K="TQ4" U="1c4e3314-0072-1edd-ffff4b5efe8004cc"/>
 					<Co K="OutputAPI" U="1c4e3314-0072-1ede-ffff4b5efe8004cc"/>
 				</C>
-				<C Type="AnalogMultiplexer" V="163" U="1c4e3314-0072-1edf-ffff4b5efe8004cc" Title="O45940" Px="14400" Py="4128" Px2="15744" Py2="5376" Cl="105,195,80" Nio="7" LtE="474297300" WF="16384">
+				<C Type="AnalogMultiplexer" V="163" U="1c4e3314-0072-1edf-ffff4b5efe8004cc" Title="O45940" Px="14400" Py="4128" Px2="15744" Py2="5376" Cl="105,195,80" Nio="7" LtE="474297300">
 					<Co K="Input1" Def="0.25" U="1c4e3314-0072-1ee0-ffff4b5efe8004cc"/>
 					<Co K="Input2" Def="0.25" U="1c4e3314-0072-1ee1-ffff4b5efe8004cc"/>
 					<Co K="Input3" Nc="1" U="1c4e3314-0072-1ee2-ffff4b5efe8004cc">
@@ -2270,7 +2274,7 @@ kann hier angeschlossen werden."/>
 					</Co>
 					<Co K="AQ" U="1c4e3314-0072-1ee8-ffff4b5efe8004cc"/>
 				</C>
-				<C Type="Avg" V="163" U="1c4e3314-0072-1ee9-ffff4b5efe8004cc" Title="O45941" Px="12480" Py="3648" Px2="13824" Py2="4512" Cl="105,195,80" Nio="6" LtE="474300256" WF="16384">
+				<C Type="Avg" V="163" U="1c4e3314-0072-1ee9-ffff4b5efe8004cc" Title="O45941" Px="12480" Py="3648" Px2="13824" Py2="4512" Cl="105,195,80" Nio="6" LtE="474300256">
 					<Co K="Input" Nc="1" U="1c4e3314-0072-1eea-ffff4b5efe8004cc">
 						<In Input="1c4e3314-0072-1eeb-ffff4b5efe8004cc"/>
 					</Co>
@@ -2282,7 +2286,7 @@ kann hier angeschlossen werden."/>
 					<Co K="Max" Def="24" U="1c4e3314-0072-1ef0-ffff4b5efe8004cc"/>
 					<Co K="AQ" U="1c4e3314-0072-1ee3-ffff4b5efe8004cc"/>
 				</C>
-				<C Type="EdgeDetection" V="163" U="1c4e3314-0072-1ef2-ffff4b5efe8004cc" Title="O45948" Px="8448" Py="4800" Px2="9792" Py2="5664" Cl="105,195,80" Nio="5" WF="16384">
+				<C Type="EdgeDetection" V="163" U="1c4e3314-0072-1ef2-ffff4b5efe8004cc" Title="O45948" Px="8448" Py="4800" Px2="9792" Py2="5664" Cl="105,195,80" Nio="5">
 					<Co K="Input" Nc="1" U="1c4e3314-0072-1ef3-ffff4b5efe8004cc">
 						<In Input="1c4e3314-0072-1eb3-ffff4b5efe8004cc"/>
 					</Co>
@@ -2291,7 +2295,7 @@ kann hier angeschlossen werden."/>
 					<Co K="RisingEdge" U="1c4e3314-0072-1ef7-ffff4b5efe8004cc"/>
 					<Co K="FallingEdge" U="1c4e3314-0072-1ef8-ffff4b5efe8004cc"/>
 				</C>
-				<C Type="OnPulseDelay" V="163" U="1c4e3314-0072-1ef9-ffff4b5efe8004cc" Title="O45949" Px="10560" Py="4224" Px2="11904" Py2="4896" Cl="105,195,80" Nio="6" LtE="474299345" WF="16384">
+				<C Type="OnPulseDelay" V="163" U="1c4e3314-0072-1ef9-ffff4b5efe8004cc" Title="O45949" Px="10560" Py="4224" Px2="11904" Py2="4896" Cl="105,195,80" Nio="6" LtE="474299345">
 					<Co K="InputTrigger" Nc="1" U="1c4e3314-0072-1efa-ffff4b5efe8004cc">
 						<In Input="1c4e3314-0072-1ef6-ffff4b5efe8004cc"/>
 					</Co>
@@ -2301,7 +2305,7 @@ kann hier angeschlossen werden."/>
 					<Co K="Time" Def="0.5" U="1c4e3314-0072-1eff-ffff4b5efe8004cc"/>
 					<Co K="Q" U="1c4e3314-0072-1eed-ffff4b5efe8004cc"/>
 				</C>
-				<C Type="Mult" V="163" U="1c4e3314-0072-1f01-ffff4b5efe8004cc" Title="O45950" Px="16512" Py="5280" Px2="17856" Py2="5952" Cl="105,195,80" Nio="3" WF="16384">
+				<C Type="Mult" V="163" U="1c4e3314-0072-1f01-ffff4b5efe8004cc" Title="O45950" Px="16512" Py="5280" Px2="17856" Py2="5952" Cl="105,195,80" Nio="3">
 					<Co K="Input1" Nc="1" U="1c4e3314-0072-1f02-ffff4b5efe8004cc">
 						<In Input="1c4e3314-0072-1ee8-ffff4b5efe8004cc"/>
 					</Co>
@@ -2310,7 +2314,7 @@ kann hier angeschlossen werden."/>
 					</Co>
 					<Co K="AQ" U="1c4e3314-0072-1ed0-ffff4b5efe8004cc"/>
 				</C>
-				<C Type="State" V="163" U="1c4e3314-0072-1f07-ffff4b5efe8004cc" Title="PV oder Epex" Px="9120" Py="2112" Px2="11808" Py2="3168" Cl="105,195,80" Nio="7" LtE="474707988" WF="16384">
+				<C Type="State" V="163" U="1c4e3314-0072-1f07-ffff4b5efe8004cc" Title="PV oder Epex" Px="9120" Py="2112" Px2="11808" Py2="3168" Cl="105,195,80" Nio="7" LtE="474707988">
 					<Co K="I1" Nc="1" U="1c4e3314-0072-1f08-ffff4b5efe8004cc">
 						<In Input="1c4b74a8-0079-8a28-16fffba3e59a7c8a" CF="true"/>
 					</Co>
@@ -2330,18 +2334,18 @@ kann hier angeschlossen werden."/>
 						<StateText Valid="true" ValidV="true" Text="" TextV="0" Icon="00000000-0000-0000-0000000000000000" IcC="5292905"/>
 					</StateTexts>
 				</C>
-				<C Type="Text" V="163" U="1c4e3314-0072-1f10-ffff4b5efe8004cc" Title="Notiz" Px="7200" Py="1440" Px2="11953" Py2="2028" Cl="255,249,196" LtE="474887025" WF="16384" Text="Hier wird bei PV Überschuss (vom Energiemanager) mit 
+				<C Type="Text" V="163" U="1c4e3314-0072-1f10-ffff4b5efe8004cc" Title="Notiz" Px="7200" Py="1440" Px2="11781" Py2="2028" Cl="255,249,196" LtE="474887025" Text="Hier wird bei PV Überschuss (vom Energiemanager) mit 
 0eur oder alternativ Einspeisetarif gerechnet.
 I3 ist für Epex, das ist in diesem Fall nicht relevant."/>
-				<C Type="Text" V="163" U="1c4e3314-0072-1f11-ffff4b5efe8004cc" Title="Notiz" Px="12480" Py="3072" Px2="15753" Py2="3468" Cl="255,249,196" LtE="474299414" WF="16384" Text="Hier wird der gleitende Mittelwert
+				<C Type="Text" V="163" U="1c4e3314-0072-1f11-ffff4b5efe8004cc" Title="Notiz" Px="12480" Py="3072" Px2="15542" Py2="3468" Cl="255,249,196" LtE="474299414" Text="Hier wird der gleitende Mittelwert
 während einer Ladesession berechnet."/>
-				<C Type="Text" V="163" U="1c4e3314-0072-1f12-ffff4b5efe8004cc" Title="Notiz" Px="14400" Py="3648" Px2="19699" Py2="4044" Cl="255,249,196" LtE="474299467" WF="16384" Text="Hier wird entsprechend dem ausgewählten Lademodi entweder 
+				<C Type="Text" V="163" U="1c4e3314-0072-1f12-ffff4b5efe8004cc" Title="Notiz" Px="14400" Py="3648" Px2="19418" Py2="4044" Cl="255,249,196" LtE="474299467" Text="Hier wird entsprechend dem ausgewählten Lademodi entweder 
 ein Fixtarif oder der gleitende Mittelwert verwendet."/>
-				<C Type="Text" V="163" U="1c4e3314-0072-1f13-ffff4b5efe8004cc" Title="Notiz" Px="13632" Py="6624" Px2="18040" Py2="7020" Cl="255,249,196" LtE="474299578" WF="16384" Text="Hier wird bei Ende der Ladesession die verbrauchte 
+				<C Type="Text" V="163" U="1c4e3314-0072-1f13-ffff4b5efe8004cc" Title="Notiz" Px="13632" Py="6624" Px2="17776" Py2="7020" Cl="255,249,196" LtE="474299578" Text="Hier wird bei Ende der Ladesession die verbrauchte 
 Energie gesetzt und mit dem Mittelwert multipliziert."/>
-				<C Type="Text" V="163" U="1c4e3314-0072-1f14-ffff4b5efe8004cc" Title="Notiz" Px="18912" Py="7008" Px2="21495" Py2="7404" Cl="255,249,196" LtE="474299882" WF="16384" Text="Hier wird mit Verzögerung der 
+				<C Type="Text" V="163" U="1c4e3314-0072-1f14-ffff4b5efe8004cc" Title="Notiz" Px="18912" Py="7008" Px2="21423" Py2="7404" Cl="255,249,196" LtE="474299882" Text="Hier wird mit Verzögerung der 
 Text für das Logging erzeugt."/>
-				<C Type="MeterAbsUni" V="163" U="1c4e3314-0072-1f15-ffff4b5efe8004cc" Title="Wallbox Ladekosten" StatsType="8" Px="21312" Py="1344" Px2="24000" Py2="2400" Cl="105,195,80" Nio="15" LtE="474707988" WF="16384" PwrN="Kosten" Un1="&lt;v.2&gt;€" Un2="&lt;v.1&gt;€" Rec="">
+				<C Type="MeterAbsUni" V="163" U="1c4e3314-0072-1f15-ffff4b5efe8004cc" Title="Wallbox Ladekosten" StatsType="8" Px="21312" Py="1344" Px2="24000" Py2="2400" Cl="105,195,80" Nio="15" LtE="474707988" PwrN="Kosten" Un1="&lt;v.2&gt;€" Un2="&lt;v.1&gt;€" Rec="">
 					<statGrp id="1" m="10"/>
 					<statGrp id="2" m="11" acc="true"/>
 					<Co K="Pf" Nc="1" U="1c4e3314-0072-1f16-ffff4b5efe8004cc">
@@ -2363,7 +2367,7 @@ Text für das Logging erzeugt."/>
 					<Co K="OutputAPI" U="1c4e3314-0072-1f25-ffff4b5efe8004cc"/>
 					<IoData Visu="true" Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7" IconV="1b6f599c-03bf-9569-ffffed57184a04d2"/>
 				</C>
-				<C Type="MeterAbsUni" V="163" U="1c4e3314-0072-1f26-ffff4b5efe8004cc" Title="Wallbox" StatsType="8" Px="21312" Py="2592" Px2="24000" Py2="3648" Cl="105,195,80" Nio="15" LtE="474707988" WF="1073758208" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="">
+				<C Type="MeterAbsUni" V="163" U="1c4e3314-0072-1f26-ffff4b5efe8004cc" Title="Wallbox" StatsType="8" Px="21312" Py="2592" Px2="24000" Py2="3648" Cl="105,195,80" Nio="15" LtE="474707988" WF="1073741824" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="">
 					<statGrp id="1" m="10"/>
 					<statGrp id="2" m="11" acc="true"/>
 					<Co K="Pf" Nc="1" U="1c4e3314-0072-1f27-ffff4b5efe8004cc">
@@ -2385,7 +2389,7 @@ Text für das Logging erzeugt."/>
 					<Co K="OutputAPI" U="1c4e3314-0072-1f36-ffff4b5efe8004cc"/>
 					<IoData Visu="true" Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7" IconV="0000008e-00ff-0000-0000000000000000"/>
 				</C>
-				<C Type="AMemory" V="163" U="1c4e3314-0072-1f37-ffff4b5efe8004cc" Title="O45976" Px="14400" Py="5472" Px2="15744" Py2="6528" Cl="105,195,80" Nio="5" LtE="474706591" WF="16384">
+				<C Type="AMemory" V="163" U="1c4e3314-0072-1f37-ffff4b5efe8004cc" Title="O45976" Px="14400" Py="5472" Px2="15744" Py2="6528" Cl="105,195,80" Nio="5" LtE="474706591">
 					<Co K="Input" Nc="1" U="1c4e3314-0072-1f38-ffff4b5efe8004cc">
 						<In Input="1c4e3314-0072-1eba-ffff4b5efe8004cc"/>
 					</Co>
@@ -2398,7 +2402,7 @@ Text für das Logging erzeugt."/>
 					<Co K="Remanence" Inv="true" U="1c4e3314-0072-1f3e-ffff4b5efe8004cc"/>
 					<Co K="AQ" U="1c4e3314-0072-1f05-ffff4b5efe8004cc"/>
 				</C>
-				<C Type="Mult" V="163" U="1c4e3314-0072-1f40-ffff4b5efe8004cc" Title="O46546" Px="19008" Py="1536" Px2="20352" Py2="2208" Cl="105,195,80" Nio="3" WF="16384">
+				<C Type="Mult" V="163" U="1c4e3314-0072-1f40-ffff4b5efe8004cc" Title="O46546" Px="19008" Py="1536" Px2="20352" Py2="2208" Cl="105,195,80" Nio="3">
 					<Co K="Input1" Nc="1" U="1c4e3314-0072-1f41-ffff4b5efe8004cc">
 						<In Input="1c4e3314-0072-1eeb-ffff4b5efe8004cc" CF="true"/>
 					</Co>
@@ -2407,42 +2411,44 @@ Text für das Logging erzeugt."/>
 					</Co>
 					<Co K="AQ" U="1c4e3314-0072-1f17-ffff4b5efe8004cc"/>
 				</C>
-				<C Type="Text" V="163" U="1c4e3314-0072-1f46-ffff4b5efe8004cc" Title="Notiz" Px="1056" Py="5760" Px2="3811" Py2="6156" Cl="255,249,196" LtE="474708547" WF="16384" Text="Hier muss der Energiezähler der
+				<C Type="Text" V="163" U="1c4e3314-0072-1f46-ffff4b5efe8004cc" Title="Notiz" Px="1056" Py="5760" Px2="3705" Py2="6156" Cl="255,249,196" LtE="474708547" Text="Hier muss der Energiezähler der
 Wallbox verbunden sein."/>
-				<C Type="Text" V="163" U="1c4e3314-0072-1f47-ffff4b5efe8004cc" Title="Notiz" Px="288" Py="6912" Px2="3906" Py2="7308" Cl="255,249,196" LtE="474886476" WF="16384" Text="Der Analogausgang des Energiemanagers 
-kann hier angeschlossen werden."/>
-				<C Type="Text" V="163" U="1c4e3348-02cf-4a9a-ffff3b09a181db0f" Title="Notiz" Px="6624" Py="8640" Px2="11262" Py2="9036" Cl="255,249,196" LtE="474708082" WF="16384" Text="Hier sollte die Wallbox verbunden sein, wie im Blatt 4b.
+				<C Type="Text" V="163" U="1c4e3314-0072-1f47-ffff4b5efe8004cc" Title="Notiz" Px="288" Py="6912" Px2="3695" Py2="7308" Cl="255,249,196" LtE="475398102" Text="Der Analogausgang des Energiemanagers 
+kann bei Lm3 angeschlossen werden."/>
+				<C Type="Text" V="163" U="1c4e3348-02cf-4a9a-ffff3b09a181db0f" Title="Notiz" Px="6624" Py="8640" Px2="10998" Py2="9036" Cl="255,249,196" LtE="474708082" Text="Hier sollte die Wallbox verbunden sein, wie im Blatt 4b.
 Das geht aber nur 1x pro Wallbox."/>
-				<C Type="OutputRef" V="163" U="1c4e3314-0072-1f4c-ffff4b5efe8004cc" Title="API Connector" Px="8256" Py="8256" Px2="10368" Py2="8448" Cl="238,238,238" Nio="2" Ref="1c4b7434-010c-5456-ffff7e7dcca6b5e7" RefL="1c4b7434-010c-5456-ffff7e7dcca6b5e7" Ref2="1c4b7434-010c-5456-ffff7e7dcca6b5e7" WF="16384" Text="true" LinkRefType="136">
-					<Co K="AI" Nc="1" U="1c4e3314-0072-1ec9-ffff4b5efe8004cc">
-						<In Input="1c4e3314-0072-1ec7-ffff4b5efe8004cc"/>
-					</Co>
-					<Co K="AQ" U="1c4e3314-0072-1f4f-ffff4b5efe8004cc"/>
-				</C>
-				<C Type="OutputRef" V="163" U="1c4e3314-0072-1f50-ffff4b5efe8004cc" Title="API Connector" Px="8256" Py="8064" Px2="10368" Py2="8256" Cl="238,238,238" Nio="2" RefL="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Ref2="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" WF="16384" Text="true" LinkRefType="136">
-					<Co K="AI" Nc="1" U="1c4e3314-0072-1ec8-ffff4b5efe8004cc">
-						<In Input="1c4e3314-0072-1ec7-ffff4b5efe8004cc"/>
-					</Co>
-					<Co K="AQ" U="1c4e3314-0072-1f53-ffff4b5efe8004cc"/>
-				</C>
-				<C Type="OutputRefLM" V="163" U="1c4e3314-0072-1f54-ffff4b5efe8004cc" Title="Tracker Wallbox" Px="21216" Py="7872" Px2="23328" Py2="8064" Cl="238,238,238" Nio="2" Ref="1c4b7462-0155-618d-ffff7e7dcca6b5e7" RefL="1c4b7462-0155-618d-ffff7e7dcca6b5e7" Ref2="1c4b7462-0155-618d-ffff7e7dcca6b5e7" WF="16384">
-					<Co K="AI" Nc="1" U="1c4e3314-0072-1f55-ffff4b5efe8004cc">
-						<In Input="1c4e3314-0072-1ed9-ffff4b5efe8004cc"/>
-					</Co>
-					<Co K="AQ" U="1c4e3314-0072-1f57-ffff4b5efe8004cc"/>
-					<LoggerMailer RefTracker="1c4b7462-0155-618d-ffff7e7dcca6b5e7" On="&lt;v&gt;" Off="&lt;v&gt;" MinimumTime="5000"/>
-				</C>
-				<C Type="OutputRefLM" V="163" U="1c4e3314-0072-1f48-ffff4b5efe8004cc" Title="Logger Wallbox" Px="21216" Py="7680" Px2="23328" Py2="7872" Cl="238,238,238" Nio="2" Ref="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" RefL="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" Ref2="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" WF="16384">
+				<C Type="Text" V="163" U="1c55ff2a-03d9-bf3b-ffff0fe0ecbc2357" Title="To-do" Px="20256" Py="768" Px2="23663" Py2="1164" Cl="255,200,100" LtE="475397923" Text="Hier muss noch korrekt gerechnet werden,
+da brauche ich aber noch ein paar Daten." Td="true"/>
+				<C Type="OutputRefLM" V="163" U="1c4e3314-0072-1f48-ffff4b5efe8004cc" Title="Logger Wallbox" Px="21216" Py="7680" Px2="23328" Py2="7872" Cl="238,238,238" Nio="2" Ref="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" RefL="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" Ref2="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" WF="131072">
 					<Co K="AI" Nc="1" U="1c4e3314-0072-1f49-ffff4b5efe8004cc">
 						<In Input="1c4e3314-0072-1ed9-ffff4b5efe8004cc"/>
 					</Co>
 					<Co K="AQ" U="1c4e3314-0072-1f4b-ffff4b5efe8004cc"/>
 					<LoggerMailer RefLogger="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" On="&lt;v&gt;" Off="&lt;v&gt;" MinimumTime="5000"/>
 				</C>
+				<C Type="OutputRef" V="163" U="1c4e3314-0072-1f4c-ffff4b5efe8004cc" Title="API Connector" Px="8256" Py="8256" Px2="10368" Py2="8448" Cl="238,238,238" Nio="2" Ref="1c4b7434-010c-5456-ffff7e7dcca6b5e7" RefL="1c4b7434-010c-5456-ffff7e7dcca6b5e7" Ref2="1c4b7434-010c-5456-ffff7e7dcca6b5e7" Text="true" LinkRefType="136">
+					<Co K="AI" Nc="1" U="1c4e3314-0072-1ec9-ffff4b5efe8004cc">
+						<In Input="1c4e3314-0072-1ec7-ffff4b5efe8004cc"/>
+					</Co>
+					<Co K="AQ" U="1c4e3314-0072-1f4f-ffff4b5efe8004cc"/>
+				</C>
+				<C Type="OutputRef" V="163" U="1c4e3314-0072-1f50-ffff4b5efe8004cc" Title="API Connector" Px="8256" Py="8064" Px2="10368" Py2="8256" Cl="238,238,238" Nio="2" RefL="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Ref2="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Text="true" LinkRefType="136">
+					<Co K="AI" Nc="1" U="1c4e3314-0072-1ec8-ffff4b5efe8004cc">
+						<In Input="1c4e3314-0072-1ec7-ffff4b5efe8004cc"/>
+					</Co>
+					<Co K="AQ" U="1c4e3314-0072-1f53-ffff4b5efe8004cc"/>
+				</C>
+				<C Type="OutputRefLM" V="163" U="1c4e3314-0072-1f54-ffff4b5efe8004cc" Title="Tracker Wallbox" Px="21216" Py="7872" Px2="23328" Py2="8064" Cl="238,238,238" Nio="2" Ref="1c4b7462-0155-618d-ffff7e7dcca6b5e7" RefL="1c4b7462-0155-618d-ffff7e7dcca6b5e7" Ref2="1c4b7462-0155-618d-ffff7e7dcca6b5e7" WF="131072">
+					<Co K="AI" Nc="1" U="1c4e3314-0072-1f55-ffff4b5efe8004cc">
+						<In Input="1c4e3314-0072-1ed9-ffff4b5efe8004cc"/>
+					</Co>
+					<Co K="AQ" U="1c4e3314-0072-1f57-ffff4b5efe8004cc"/>
+					<LoggerMailer RefTracker="1c4b7462-0155-618d-ffff7e7dcca6b5e7" On="&lt;v&gt;" Off="&lt;v&gt;" MinimumTime="5000"/>
+				</C>
 			</C>
 			<C Type="Page" V="163" U="1c4e318a-01e5-9018-ffff7e7dcca6b5e7" Title="4d. Wallbox mit Epex" WF="16384">
 				<IoData Cr="1c4b6ecb-00ca-6ecb-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00f2-6fa6-ffff7e7dcca6b5e7"/>
-				<C Type="InputRef" V="163" U="1c4e319e-01d0-a127-fffff083e3281e1c" Title="Total active Power" Px="1536" Py="6336" Px2="3648" Py2="6528" Cl="238,238,238" Nio="4" Ref="1c4b7407-038c-4809-ffff7e7dcca6b5e7" RefL="1c4b7407-038c-4809-ffff7e7dcca6b5e7" Ref2="1c4b7407-038c-4809-ffff7e7dcca6b5e7" WF="147456" Analog="true" LinkRefType="153">
+				<C Type="InputRef" V="163" U="1c4e319e-01d0-a127-fffff083e3281e1c" Title="Total active Power" Px="1536" Py="6336" Px2="3648" Py2="6528" Cl="238,238,238" Nio="4" Ref="1c4b7407-038c-4809-ffff7e7dcca6b5e7" RefL="1c4b7407-038c-4809-ffff7e7dcca6b5e7" Ref2="1c4b7407-038c-4809-ffff7e7dcca6b5e7" WF="131072" Analog="true" LinkRefType="153">
 					<Co K="AI" Nc="1" U="1c4e319e-01d0-a128-fffff083e3281e1c">
 						<In Input="1c4b7407-038c-4807-00ffda2acf93df24"/>
 					</Co>
@@ -2452,7 +2458,7 @@ Das geht aber nur 1x pro Wallbox."/>
 					<Co K="AQ" U="1c4e319e-01d0-a12a-fffff083e3281e1c"/>
 					<Co K="Q" U="1c4e319e-01d0-a12b-fffff083e3281e1c"/>
 				</C>
-				<C Type="InputRef" V="163" U="1c4e319e-01d0-a12c-fffff083e3281e1c" Title="Einspeisetarif" Px="6144" Py="2880" Px2="8256" Py2="3072" Cl="238,238,238" Nio="4" Ref="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" RefL="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" Ref2="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" WF="147456" Analog="true" LinkRefType="17">
+				<C Type="InputRef" V="163" U="1c4e319e-01d0-a12c-fffff083e3281e1c" Title="Einspeisetarif" Px="6144" Py="2880" Px2="8256" Py2="3072" Cl="238,238,238" Nio="4" Ref="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" RefL="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" Ref2="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" WF="131072" Analog="true" LinkRefType="17">
 					<Co K="AI" Nc="1" U="1c4e319e-01d0-a12d-fffff083e3281e1c">
 						<In Input="1c4b773a-013d-7d23-00ffca8ebd6d969e"/>
 					</Co>
@@ -2460,7 +2466,7 @@ Das geht aber nur 1x pro Wallbox."/>
 					<Co K="AQ" U="1c4e319e-01d0-a12f-fffff083e3281e1c"/>
 					<Co K="Q" U="1c4e319e-01d0-a130-fffff083e3281e1c"/>
 				</C>
-				<C Type="Wallbox" V="163" U="1c4e319e-01d0-a131-fffff083e3281e1c" Title="Wallbox" StatsType="8" StatsAutoDel="1" Px="4608" Py="5664" Px2="7296" Py2="8256" Cl="105,195,80" Nio="45" LtE="474707988" WF="16384" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="" P1="4.16" P2="11" SpStates="1c4e319e-01d0-a1f0-fffff083e3281e1c,1c4e319e-01d0-a1f1-fffff083e3281e1c,1c4e319e-01d0-a1f2-fffff083e3281e1c,1c4e319e-01d0-a1f3-fffff083e3281e1c,1c4e319e-01d0-a1f4-fffff083e3281e1c,1c4e319e-01d0-a1f5-fffff083e3281e1c" TRK_NE="100" TRK_MAX="100">
+				<C Type="Wallbox" V="163" U="1c4e319e-01d0-a131-fffff083e3281e1c" Title="Wallbox" StatsType="8" StatsAutoDel="1" Px="4608" Py="5664" Px2="7296" Py2="8256" Cl="105,195,80" Nio="45" LtE="474707988" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="" P1="4.16" P2="11" SpStates="1c4e319e-01d0-a1f0-fffff083e3281e1c,1c4e319e-01d0-a1f1-fffff083e3281e1c,1c4e319e-01d0-a1f2-fffff083e3281e1c,1c4e319e-01d0-a1f3-fffff083e3281e1c,1c4e319e-01d0-a1f4-fffff083e3281e1c,1c4e319e-01d0-a1f5-fffff083e3281e1c" TRK_NE="100" TRK_MAX="100">
 					<statGrp id="1" m="10"/>
 					<statGrp id="2" m="11" acc="true"/>
 					<Co K="allow" Inv="true" U="1c4e319e-01d0-a132-fffff083e3281e1c"/>
@@ -2510,8 +2516,8 @@ Das geht aber nur 1x pro Wallbox."/>
 					<Co K="outPrice" U="1c4e319e-01d0-a15d-fffff083e3281e1c"/>
 					<Co K="outUserId" U="1c4e319e-01d0-a15e-fffff083e3281e1c"/>
 					<Co K="OutputAPI" Nc="2" U="1c4e319e-01d0-a15f-fffff083e3281e1c">
-						<In Input="1c4e319e-01d0-a161-fffff083e3281e1c" Hidden="true"/>
 						<In Input="1c4e319e-01d0-a160-fffff083e3281e1c" Hidden="true"/>
+						<In Input="1c4e319e-01d0-a161-fffff083e3281e1c" Hidden="true"/>
 					</Co>
 					<IoData Visu="true" Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7" Rating="4" UseInFav="true"/>
 					<Modes>
@@ -2523,7 +2529,7 @@ Das geht aber nur 1x pro Wallbox."/>
 						<Mode N="Fixer Sollwert" I="true" Ix="99"/>
 					</Modes>
 				</C>
-				<C Type="TextGenerator" V="163" U="1c4e319e-01d0-a162-fffff083e3281e1c" Title="O43604" Px="18912" Py="7392" Px2="20256" Py2="8832" Cl="105,195,80" Nio="17" LtE="474309500" WF="16384" Text="&lt;v1&gt;;KENNZEICHEN;&lt;v2.2&gt;" Text2="" Text3="&lt;v2.2&gt;" Text4="" Text5="">
+				<C Type="TextGenerator" V="163" U="1c4e319e-01d0-a162-fffff083e3281e1c" Title="O43604" Px="18912" Py="7392" Px2="20256" Py2="8832" Cl="105,195,80" Nio="17" LtE="474309500" Text="&lt;v1&gt;;KENNZEICHEN;&lt;v2.2&gt;" Text2="" Text3="&lt;v2.2&gt;" Text4="" Text5="">
 					<Co K="Trigger" Nc="1" U="1c4e319e-01d0-a163-fffff083e3281e1c">
 						<In Input="1c4e319e-01d0-a15c-fffff083e3281e1c"/>
 					</Co>
@@ -2548,7 +2554,7 @@ Das geht aber nur 1x pro Wallbox."/>
 					<Co K="TQ4" U="1c4e319e-01d0-a175-fffff083e3281e1c"/>
 					<Co K="OutputAPI" U="1c4e319e-01d0-a176-fffff083e3281e1c"/>
 				</C>
-				<C Type="AnalogMultiplexer" V="163" U="1c4e319e-01d0-a177-fffff083e3281e1c" Title="O45940" Px="14400" Py="4128" Px2="15744" Py2="5376" Cl="105,195,80" Nio="7" LtE="474297300" WF="16384">
+				<C Type="AnalogMultiplexer" V="163" U="1c4e319e-01d0-a177-fffff083e3281e1c" Title="O45940" Px="14400" Py="4128" Px2="15744" Py2="5376" Cl="105,195,80" Nio="7" LtE="474297300" WF="131072">
 					<Co K="Input1" Def="0.25" U="1c4e319e-01d0-a178-fffff083e3281e1c"/>
 					<Co K="Input2" Def="0.25" U="1c4e319e-01d0-a179-fffff083e3281e1c"/>
 					<Co K="Input3" Nc="1" U="1c4e319e-01d0-a17a-fffff083e3281e1c">
@@ -2561,7 +2567,7 @@ Das geht aber nur 1x pro Wallbox."/>
 					</Co>
 					<Co K="AQ" U="1c4e319e-01d0-a180-fffff083e3281e1c"/>
 				</C>
-				<C Type="Avg" V="163" U="1c4e319e-01d0-a181-fffff083e3281e1c" Title="O45941" Px="12480" Py="3648" Px2="13824" Py2="4512" Cl="105,195,80" Nio="6" LtE="474300256" WF="16384">
+				<C Type="Avg" V="163" U="1c4e319e-01d0-a181-fffff083e3281e1c" Title="O45941" Px="12480" Py="3648" Px2="13824" Py2="4512" Cl="105,195,80" Nio="6" LtE="474300256">
 					<Co K="Input" Nc="1" U="1c4e319e-01d0-a182-fffff083e3281e1c">
 						<In Input="1c4e319e-01d0-a183-fffff083e3281e1c"/>
 					</Co>
@@ -2573,7 +2579,7 @@ Das geht aber nur 1x pro Wallbox."/>
 					<Co K="Max" Def="24" U="1c4e319e-01d0-a188-fffff083e3281e1c"/>
 					<Co K="AQ" U="1c4e319e-01d0-a17b-fffff083e3281e1c"/>
 				</C>
-				<C Type="EdgeDetection" V="163" U="1c4e319e-01d0-a18a-fffff083e3281e1c" Title="O45948" Px="8448" Py="4800" Px2="9792" Py2="5664" Cl="105,195,80" Nio="5" WF="16384">
+				<C Type="EdgeDetection" V="163" U="1c4e319e-01d0-a18a-fffff083e3281e1c" Title="O45948" Px="8448" Py="4800" Px2="9792" Py2="5664" Cl="105,195,80" Nio="5" WF="131072">
 					<Co K="Input" Nc="1" U="1c4e319e-01d0-a18b-fffff083e3281e1c">
 						<In Input="1c4e319e-01d0-a14b-fffff083e3281e1c"/>
 					</Co>
@@ -2582,7 +2588,7 @@ Das geht aber nur 1x pro Wallbox."/>
 					<Co K="RisingEdge" U="1c4e319e-01d0-a18f-fffff083e3281e1c"/>
 					<Co K="FallingEdge" U="1c4e319e-01d0-a190-fffff083e3281e1c"/>
 				</C>
-				<C Type="OnPulseDelay" V="163" U="1c4e319e-01d0-a191-fffff083e3281e1c" Title="O45949" Px="10560" Py="4224" Px2="11904" Py2="4896" Cl="105,195,80" Nio="6" LtE="474299345" WF="16384">
+				<C Type="OnPulseDelay" V="163" U="1c4e319e-01d0-a191-fffff083e3281e1c" Title="O45949" Px="10560" Py="4224" Px2="11904" Py2="4896" Cl="105,195,80" Nio="6" LtE="474299345">
 					<Co K="InputTrigger" Nc="1" U="1c4e319e-01d0-a192-fffff083e3281e1c">
 						<In Input="1c4e319e-01d0-a18e-fffff083e3281e1c"/>
 					</Co>
@@ -2592,7 +2598,7 @@ Das geht aber nur 1x pro Wallbox."/>
 					<Co K="Time" Def="0.5" U="1c4e319e-01d0-a197-fffff083e3281e1c"/>
 					<Co K="Q" U="1c4e319e-01d0-a185-fffff083e3281e1c"/>
 				</C>
-				<C Type="Mult" V="163" U="1c4e319e-01d0-a199-fffff083e3281e1c" Title="O45950" Px="16512" Py="5280" Px2="17856" Py2="5952" Cl="105,195,80" Nio="3" WF="16384">
+				<C Type="Mult" V="163" U="1c4e319e-01d0-a199-fffff083e3281e1c" Title="O45950" Px="16512" Py="5280" Px2="17856" Py2="5952" Cl="105,195,80" Nio="3">
 					<Co K="Input1" Nc="1" U="1c4e319e-01d0-a19a-fffff083e3281e1c">
 						<In Input="1c4e319e-01d0-a180-fffff083e3281e1c"/>
 					</Co>
@@ -2601,7 +2607,7 @@ Das geht aber nur 1x pro Wallbox."/>
 					</Co>
 					<Co K="AQ" U="1c4e319e-01d0-a168-fffff083e3281e1c"/>
 				</C>
-				<C Type="State" V="163" U="1c4e319e-01d0-a19f-fffff083e3281e1c" Title="PV oder Epex" Px="9216" Py="2208" Px2="11904" Py2="3456" Cl="105,195,80" Nio="7" LtE="474707988" WF="16384">
+				<C Type="State" V="163" U="1c4e319e-01d0-a19f-fffff083e3281e1c" Title="PV oder Epex" Px="9216" Py="2208" Px2="11904" Py2="3456" Cl="105,195,80" Nio="7" LtE="474707988">
 					<Co K="I1" U="1c4e319e-01d0-a1a0-fffff083e3281e1c"/>
 					<Co K="I2" Nc="1" U="1c4e319e-01d0-a1a1-fffff083e3281e1c">
 						<In Input="1c4e319e-01d0-a12f-fffff083e3281e1c"/>
@@ -2621,17 +2627,17 @@ Das geht aber nur 1x pro Wallbox."/>
 						<StateText Valid="true" ValidV="true" Text="" TextV="0" Icon="00000000-0000-0000-0000000000000000" IcC="5292905"/>
 					</StateTexts>
 				</C>
-				<C Type="Text" V="163" U="1c4e319e-01d0-a1a8-fffff083e3281e1c" Title="Notiz" Px="7488" Py="1632" Px2="11637" Py2="2028" Cl="255,249,196" LtE="474886715" WF="16384" Text="Hier wird der aktuelle Epex Tarif angewendet.
+				<C Type="Text" V="163" U="1c4e319e-01d0-a1a8-fffff083e3281e1c" Title="Notiz" Px="7488" Py="1632" Px2="11332" Py2="2028" Cl="255,249,196" LtE="474886715" Text="Hier wird der aktuelle Epex Tarif angewendet.
 I1 ist für PV, das ist in diesem Fall nicht relevant."/>
-				<C Type="Text" V="163" U="1c4e319e-01d0-a1a9-fffff083e3281e1c" Title="Notiz" Px="12480" Py="3072" Px2="15753" Py2="3468" Cl="255,249,196" LtE="474299414" WF="16384" Text="Hier wird der gleitende Mittelwert
+				<C Type="Text" V="163" U="1c4e319e-01d0-a1a9-fffff083e3281e1c" Title="Notiz" Px="12480" Py="3072" Px2="15542" Py2="3468" Cl="255,249,196" LtE="474299414" Text="Hier wird der gleitende Mittelwert
 während einer Ladesession berechnet."/>
-				<C Type="Text" V="163" U="1c4e319e-01d0-a1aa-fffff083e3281e1c" Title="Notiz" Px="14400" Py="3648" Px2="19699" Py2="4044" Cl="255,249,196" LtE="474299467" WF="16384" Text="Hier wird entsprechend dem ausgewählten Lademodi entweder 
+				<C Type="Text" V="163" U="1c4e319e-01d0-a1aa-fffff083e3281e1c" Title="Notiz" Px="14400" Py="3648" Px2="19418" Py2="4044" Cl="255,249,196" LtE="474299467" Text="Hier wird entsprechend dem ausgewählten Lademodi entweder 
 ein Fixtarif oder der gleitende Mittelwert verwendet."/>
-				<C Type="Text" V="163" U="1c4e319e-01d0-a1ab-fffff083e3281e1c" Title="Notiz" Px="13632" Py="6624" Px2="18040" Py2="7020" Cl="255,249,196" LtE="474299578" WF="16384" Text="Hier wird bei Ende der Ladesession die verbrauchte 
+				<C Type="Text" V="163" U="1c4e319e-01d0-a1ab-fffff083e3281e1c" Title="Notiz" Px="13632" Py="6624" Px2="17776" Py2="7020" Cl="255,249,196" LtE="474299578" Text="Hier wird bei Ende der Ladesession die verbrauchte 
 Energie gesetzt und mit dem Mittelwert multipliziert."/>
-				<C Type="Text" V="163" U="1c4e319e-01d0-a1ac-fffff083e3281e1c" Title="Notiz" Px="18912" Py="6816" Px2="21495" Py2="7212" Cl="255,249,196" LtE="474299882" WF="16384" Text="Hier wird mit Verzögerung der 
+				<C Type="Text" V="163" U="1c4e319e-01d0-a1ac-fffff083e3281e1c" Title="Notiz" Px="18912" Py="6816" Px2="21423" Py2="7212" Cl="255,249,196" LtE="474299882" Text="Hier wird mit Verzögerung der 
 Text für das Logging erzeugt."/>
-				<C Type="MeterAbsUni" V="163" U="1c4e319e-01d0-a1ad-fffff083e3281e1c" Title="Wallbox Ladekosten" StatsType="8" Px="21312" Py="1344" Px2="24000" Py2="2400" Cl="105,195,80" Nio="15" LtE="474707988" WF="16384" PwrN="Kosten" Un1="&lt;v.2&gt;€" Un2="&lt;v.1&gt;€" Rec="">
+				<C Type="MeterAbsUni" V="163" U="1c4e319e-01d0-a1ad-fffff083e3281e1c" Title="Wallbox Ladekosten" StatsType="8" Px="21312" Py="1344" Px2="24000" Py2="2400" Cl="105,195,80" Nio="15" LtE="474707988" PwrN="Kosten" Un1="&lt;v.2&gt;€" Un2="&lt;v.1&gt;€" Rec="">
 					<statGrp id="1" m="10"/>
 					<statGrp id="2" m="11" acc="true"/>
 					<Co K="Pf" Nc="1" U="1c4e319e-01d0-a1ae-fffff083e3281e1c">
@@ -2653,7 +2659,7 @@ Text für das Logging erzeugt."/>
 					<Co K="OutputAPI" U="1c4e319e-01d0-a1bd-fffff083e3281e1c"/>
 					<IoData Visu="true" Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7" IconV="1b6f599c-03bf-9569-ffffed57184a04d2"/>
 				</C>
-				<C Type="MeterAbsUni" V="163" U="1c4e319e-01d0-a1be-fffff083e3281e1c" Title="Wallbox" StatsType="8" Px="21312" Py="2592" Px2="24000" Py2="3648" Cl="105,195,80" Nio="15" LtE="474707988" WF="1073758208" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="">
+				<C Type="MeterAbsUni" V="163" U="1c4e319e-01d0-a1be-fffff083e3281e1c" Title="Wallbox" StatsType="8" Px="21312" Py="2592" Px2="24000" Py2="3648" Cl="105,195,80" Nio="15" LtE="474707988" WF="1073741824" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="">
 					<statGrp id="1" m="10"/>
 					<statGrp id="2" m="11" acc="true"/>
 					<Co K="Pf" Nc="1" U="1c4e319e-01d0-a1bf-fffff083e3281e1c">
@@ -2675,7 +2681,7 @@ Text für das Logging erzeugt."/>
 					<Co K="OutputAPI" U="1c4e319e-01d0-a1ce-fffff083e3281e1c"/>
 					<IoData Visu="true" Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7" IconV="0000008e-00ff-0000-0000000000000000"/>
 				</C>
-				<C Type="AMemory" V="163" U="1c4e319e-01d0-a1cf-fffff083e3281e1c" Title="O45976" Px="14400" Py="5472" Px2="15744" Py2="6528" Cl="105,195,80" Nio="5" LtE="474706591" WF="16384">
+				<C Type="AMemory" V="163" U="1c4e319e-01d0-a1cf-fffff083e3281e1c" Title="O45976" Px="14400" Py="5472" Px2="15744" Py2="6528" Cl="105,195,80" Nio="5" LtE="474706591" WF="131072">
 					<Co K="Input" Nc="1" U="1c4e319e-01d0-a1d0-fffff083e3281e1c">
 						<In Input="1c4e319e-01d0-a152-fffff083e3281e1c"/>
 					</Co>
@@ -2688,7 +2694,7 @@ Text für das Logging erzeugt."/>
 					<Co K="Remanence" Inv="true" U="1c4e319e-01d0-a1d6-fffff083e3281e1c"/>
 					<Co K="AQ" U="1c4e319e-01d0-a19d-fffff083e3281e1c"/>
 				</C>
-				<C Type="Mult" V="163" U="1c4e319e-01d0-a1d8-fffff083e3281e1c" Title="O46546" Px="19008" Py="1536" Px2="20352" Py2="2208" Cl="105,195,80" Nio="3" WF="16384">
+				<C Type="Mult" V="163" U="1c4e319e-01d0-a1d8-fffff083e3281e1c" Title="O46546" Px="19008" Py="1536" Px2="20352" Py2="2208" Cl="105,195,80" Nio="3">
 					<Co K="Input1" Nc="1" U="1c4e319e-01d0-a1d9-fffff083e3281e1c">
 						<In Input="1c4e319e-01d0-a183-fffff083e3281e1c" CF="true"/>
 					</Co>
@@ -2697,122 +2703,60 @@ Text für das Logging erzeugt."/>
 					</Co>
 					<Co K="AQ" U="1c4e319e-01d0-a1af-fffff083e3281e1c"/>
 				</C>
-				<C Type="Text" V="163" U="1c4e319e-01d0-a1de-fffff083e3281e1c" Title="Notiz" Px="1056" Py="5760" Px2="3811" Py2="6156" Cl="255,249,196" LtE="474708547" WF="16384" Text="Hier muss der Energiezähler der
+				<C Type="Text" V="163" U="1c4e319e-01d0-a1de-fffff083e3281e1c" Title="Notiz" Px="1056" Py="5760" Px2="3705" Py2="6156" Cl="255,249,196" LtE="474708547" Text="Hier muss der Energiezähler der
 Wallbox verbunden sein."/>
-				<C Type="Text" V="163" U="1c4e31a6-01f4-ae67-ffff76b12d9c59f4" Title="Notiz" Px="6528" Py="8640" Px2="11166" Py2="9036" Cl="255,249,196" LtE="474708082" WF="16384" Text="Hier sollte die Wallbox verbunden sein, wie im Blatt 4b.
+				<C Type="Text" V="163" U="1c4e31a6-01f4-ae67-ffff76b12d9c59f4" Title="Notiz" Px="6528" Py="8640" Px2="10902" Py2="9036" Cl="255,249,196" LtE="474708082" Text="Hier sollte die Wallbox verbunden sein, wie im Blatt 4b.
 Das geht aber nur 1x pro Wallbox."/>
-				<C Type="OutputRef" V="163" U="1c4e319e-01d0-a1e4-fffff083e3281e1c" Title="API Connector" Px="8256" Py="8256" Px2="10368" Py2="8448" Cl="238,238,238" Nio="2" Ref="1c4b7434-010c-5456-ffff7e7dcca6b5e7" RefL="1c4b7434-010c-5456-ffff7e7dcca6b5e7" Ref2="1c4b7434-010c-5456-ffff7e7dcca6b5e7" WF="16384" Text="true" LinkRefType="136">
-					<Co K="AI" Nc="1" U="1c4e319e-01d0-a161-fffff083e3281e1c">
-						<In Input="1c4e319e-01d0-a15f-fffff083e3281e1c"/>
-					</Co>
-					<Co K="AQ" U="1c4e319e-01d0-a1e7-fffff083e3281e1c"/>
-				</C>
-				<C Type="OutputRef" V="163" U="1c4e319e-01d0-a1e8-fffff083e3281e1c" Title="API Connector" Px="8256" Py="8064" Px2="10368" Py2="8256" Cl="238,238,238" Nio="2" RefL="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Ref2="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" WF="16384" Text="true" LinkRefType="136">
-					<Co K="AI" Nc="1" U="1c4e319e-01d0-a160-fffff083e3281e1c">
-						<In Input="1c4e319e-01d0-a15f-fffff083e3281e1c"/>
-					</Co>
-					<Co K="AQ" U="1c4e319e-01d0-a1eb-fffff083e3281e1c"/>
-				</C>
-				<C Type="OutputRefLM" V="163" U="1c4e319e-01d0-a1ec-fffff083e3281e1c" Title="Tracker Wallbox" Px="21216" Py="7680" Px2="23328" Py2="7872" Cl="238,238,238" Nio="2" Ref="1c4b7462-0155-618d-ffff7e7dcca6b5e7" RefL="1c4b7462-0155-618d-ffff7e7dcca6b5e7" Ref2="1c4b7462-0155-618d-ffff7e7dcca6b5e7" WF="16384">
+				<C Type="Text" V="163" U="1c55ff1d-001e-93a1-ffff1cb324226a3e" Title="To-do" Px="20064" Py="768" Px2="23471" Py2="1164" Cl="255,200,100" LtE="475397923" Text="Hier muss noch korrekt gerechnet werden,
+da brauche ich aber noch ein paar Daten." Td="true"/>
+				<C Type="OutputRefLM" V="163" U="1c4e319e-01d0-a1ec-fffff083e3281e1c" Title="Tracker Wallbox" Px="21216" Py="7680" Px2="23328" Py2="7872" Cl="238,238,238" Nio="2" Ref="1c4b7462-0155-618d-ffff7e7dcca6b5e7" RefL="1c4b7462-0155-618d-ffff7e7dcca6b5e7" Ref2="1c4b7462-0155-618d-ffff7e7dcca6b5e7" WF="131072">
 					<Co K="AI" Nc="1" U="1c4e319e-01d0-a1ed-fffff083e3281e1c">
 						<In Input="1c4e319e-01d0-a171-fffff083e3281e1c"/>
 					</Co>
 					<Co K="AQ" U="1c4e319e-01d0-a1ef-fffff083e3281e1c"/>
 					<LoggerMailer RefTracker="1c4b7462-0155-618d-ffff7e7dcca6b5e7" On="&lt;v&gt;" Off="&lt;v&gt;" MinimumTime="5000"/>
 				</C>
-				<C Type="OutputRefLM" V="163" U="1c4e319e-01d0-a1e0-fffff083e3281e1c" Title="Logger Wallbox" Px="21216" Py="7488" Px2="23328" Py2="7680" Cl="238,238,238" Nio="2" Ref="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" RefL="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" Ref2="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" WF="16384">
+				<C Type="OutputRefLM" V="163" U="1c4e319e-01d0-a1e0-fffff083e3281e1c" Title="Logger Wallbox" Px="21216" Py="7488" Px2="23328" Py2="7680" Cl="238,238,238" Nio="2" Ref="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" RefL="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" Ref2="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" WF="131072">
 					<Co K="AI" Nc="1" U="1c4e319e-01d0-a1e1-fffff083e3281e1c">
 						<In Input="1c4e319e-01d0-a171-fffff083e3281e1c"/>
 					</Co>
 					<Co K="AQ" U="1c4e319e-01d0-a1e3-fffff083e3281e1c"/>
 					<LoggerMailer RefLogger="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" On="&lt;v&gt;" Off="&lt;v&gt;" MinimumTime="5000"/>
 				</C>
+				<C Type="OutputRef" V="163" U="1c4e319e-01d0-a1e4-fffff083e3281e1c" Title="API Connector" Px="8256" Py="8256" Px2="10368" Py2="8448" Cl="238,238,238" Nio="2" Ref="1c4b7434-010c-5456-ffff7e7dcca6b5e7" RefL="1c4b7434-010c-5456-ffff7e7dcca6b5e7" Ref2="1c4b7434-010c-5456-ffff7e7dcca6b5e7" Text="true" LinkRefType="136">
+					<Co K="AI" Nc="1" U="1c4e319e-01d0-a161-fffff083e3281e1c">
+						<In Input="1c4e319e-01d0-a15f-fffff083e3281e1c"/>
+					</Co>
+					<Co K="AQ" U="1c4e319e-01d0-a1e7-fffff083e3281e1c"/>
+				</C>
+				<C Type="OutputRef" V="163" U="1c4e319e-01d0-a1e8-fffff083e3281e1c" Title="API Connector" Px="8256" Py="8064" Px2="10368" Py2="8256" Cl="238,238,238" Nio="2" RefL="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Ref2="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Text="true" LinkRefType="136">
+					<Co K="AI" Nc="1" U="1c4e319e-01d0-a160-fffff083e3281e1c">
+						<In Input="1c4e319e-01d0-a15f-fffff083e3281e1c"/>
+					</Co>
+					<Co K="AQ" U="1c4e319e-01d0-a1eb-fffff083e3281e1c"/>
+				</C>
 			</C>
-			<C Type="Page" V="163" U="1c54dcd3-01d5-4b45-ffff7e7dcca6b5e7" Title="5. Wallbox mit Code Touch" WF="16384">
+			<C Type="Page" V="163" U="1c54dcd3-01d5-4b45-ffff7e7dcca6b5e7" Title="5. Wallbox mit PV und Code Touch" WF="16384">
 				<IoData Cr="1c4b6ecb-00ca-6ecb-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00f2-6fa6-ffff7e7dcca6b5e7"/>
-				<C Type="InputRef" V="163" U="1c54dcf1-001a-6174-ffff88efcbb17ecb" Title="Total active Power" Px="1728" Py="6528" Px2="3840" Py2="6720" Cl="238,238,238" Nio="4" Ref="1c4b7407-038c-4809-ffff7e7dcca6b5e7" RefL="1c4b7407-038c-4809-ffff7e7dcca6b5e7" Ref2="1c4b7407-038c-4809-ffff7e7dcca6b5e7" WF="131072" Analog="true" LinkRefType="153">
-					<Co K="AI" Nc="1" U="1c54dcf1-001a-6175-ffff88efcbb17ecb">
+				<C Type="InputRef" V="163" U="1c55fe12-01c2-87e5-ffff75f5eec85aef" Title="Einspeisetarif" Px="5760" Py="7872" Px2="7872" Py2="8064" Cl="238,238,238" Nio="4" Ref="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" RefL="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" Ref2="1c4b773a-013d-7d24-ffff7e7dcca6b5e7" WF="131072" Analog="true" LinkRefType="17">
+					<Co K="AI" Nc="1" U="1c55fe12-01c2-87e6-ffff75f5eec85aef">
+						<In Input="1c4b773a-013d-7d23-00ffca8ebd6d969e"/>
+					</Co>
+					<Co K="I" U="1c55fe12-01c2-87e7-ffff75f5eec85aef"/>
+					<Co K="AQ" U="1c55fe12-01c2-87e8-ffff75f5eec85aef"/>
+					<Co K="Q" U="1c55fe12-01c2-87e9-ffff75f5eec85aef"/>
+				</C>
+				<C Type="InputRef" V="163" U="1c55fe12-01c2-87e0-ffff75f5eec85aef" Title="Total active Power" Px="1248" Py="11616" Px2="3360" Py2="11808" Cl="238,238,238" Nio="4" Ref="1c4b7407-038c-4809-ffff7e7dcca6b5e7" RefL="1c4b7407-038c-4809-ffff7e7dcca6b5e7" Ref2="1c4b7407-038c-4809-ffff7e7dcca6b5e7" WF="131072" Analog="true" LinkRefType="153">
+					<Co K="AI" Nc="1" U="1c55fe12-01c2-87e1-ffff75f5eec85aef">
 						<In Input="1c4b7407-038c-4807-00ffda2acf93df24"/>
 					</Co>
-					<Co K="I" Nc="1" U="1c54dcf1-001a-6176-ffff88efcbb17ecb">
+					<Co K="I" Nc="1" U="1c55fe12-01c2-87e2-ffff75f5eec85aef">
 						<In Input="1c4b7407-038c-4808-01ffda2acf93df24"/>
 					</Co>
-					<Co K="AQ" U="1c54dcf1-001a-6177-ffff88efcbb17ecb"/>
-					<Co K="Q" U="1c54dcf1-001a-6178-ffff88efcbb17ecb"/>
+					<Co K="AQ" U="1c55fe12-01c2-87e3-ffff75f5eec85aef"/>
+					<Co K="Q" U="1c55fe12-01c2-87e4-ffff75f5eec85aef"/>
 				</C>
-				<C Type="Wallbox" V="163" U="1c54dcf1-001a-6179-ffff88efcbb17ecb" Title="Wallbox" StatsType="8" StatsAutoDel="1" Px="4800" Py="5856" Px2="7488" Py2="7872" Cl="105,195,80" Nio="45" LtE="474707988" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="" P1="4.16" P2="11" SpStates="1c54dcf1-001a-61b4-ffff88efcbb17ecb,1c54dcf1-001a-61b5-ffff88efcbb17ecb,1c54dcf1-001a-61b6-ffff88efcbb17ecb,1c54dcf1-001a-61b7-ffff88efcbb17ecb,1c54dcf1-001a-61b8-ffff88efcbb17ecb,1c54dcf1-001a-61b9-ffff88efcbb17ecb" TRK_NE="100" TRK_MAX="100">
-					<statGrp id="1" m="10"/>
-					<statGrp id="2" m="11" acc="true"/>
-					<Co K="allow" Nc="1" U="1c54dcf1-001a-617a-ffff88efcbb17ecb">
-						<In Input="1c54dec3-031e-6f26-04ffa348f5cd9b5c" CF="true"/>
-					</Co>
-					<Co K="prio" U="1c54dcf1-001a-617b-ffff88efcbb17ecb"/>
-					<Co K="connected" U="1c54dcf1-001a-617c-ffff88efcbb17ecb"/>
-					<Co K="power" Nc="1" U="1c54dcf1-001a-617d-ffff88efcbb17ecb">
-						<In Input="1c54dcf1-001a-6177-ffff88efcbb17ecb"/>
-					</Co>
-					<Co K="energy" U="1c54dcf1-001a-617f-ffff88efcbb17ecb"/>
-					<Co K="active" U="1c54dcf1-001a-6180-ffff88efcbb17ecb"/>
-					<Co K="setmode1" Nc="1" U="1c54dcf1-001a-6181-ffff88efcbb17ecb">
-						<In Input="1c54dd65-023f-b753-10ff7cf2aaa6f533" CF="true"/>
-					</Co>
-					<Co K="setmode2" Nc="1" U="1c54dcf1-001a-6182-ffff88efcbb17ecb">
-						<In Input="1c54dd65-023f-b754-11ff7cf2aaa6f533" CF="true"/>
-					</Co>
-					<Co K="setmode3" Nc="1" U="1c54dcf1-001a-6183-ffff88efcbb17ecb">
-						<In Input="1c54dd65-023f-b755-12ff7cf2aaa6f533" CF="true"/>
-					</Co>
-					<Co K="setmode4" U="1c54dcf1-001a-6184-ffff88efcbb17ecb"/>
-					<Co K="setmode5" U="1c54dcf1-001a-6185-ffff88efcbb17ecb"/>
-					<Co K="valmode1" U="1c54dcf1-001a-6186-ffff88efcbb17ecb"/>
-					<Co K="valmode2" U="1c54dcf1-001a-6187-ffff88efcbb17ecb"/>
-					<Co K="valmode3" U="1c54dcf1-001a-6188-ffff88efcbb17ecb"/>
-					<Co K="valmode4" U="1c54dcf1-001a-6189-ffff88efcbb17ecb"/>
-					<Co K="valmode5" U="1c54dcf1-001a-618a-ffff88efcbb17ecb"/>
-					<Co K="user" U="1c54dcf1-001a-618b-ffff88efcbb17ecb"/>
-					<Co K="loadshed" U="1c54dcf1-001a-618c-ffff88efcbb17ecb"/>
-					<Co K="off" U="1c54dcf1-001a-618d-ffff88efcbb17ecb"/>
-					<Co K="resetM" U="1c54dcf1-001a-618e-ffff88efcbb17ecb"/>
-					<Co K="modeUnplug" U="1c54dcf1-001a-618f-ffff88efcbb17ecb"/>
-					<Co K="priceHour" U="1c54dcf1-001a-6190-ffff88efcbb17ecb"/>
-					<Co K="outAllow" U="1c54dcf1-001a-6191-ffff88efcbb17ecb"/>
-					<Co K="outConnected" U="1c54dcf1-001a-6192-ffff88efcbb17ecb"/>
-					<Co K="outActive" U="1c54dcf1-001a-6193-ffff88efcbb17ecb"/>
-					<Co K="outPower" U="1c54dcf1-001a-6194-ffff88efcbb17ecb"/>
-					<Co K="outMode" U="1c54dcf1-001a-6195-ffff88efcbb17ecb"/>
-					<Co K="outLimit" U="1c54dcf1-001a-6196-ffff88efcbb17ecb"/>
-					<Co K="outLoadshed" U="1c54dcf1-001a-6197-ffff88efcbb17ecb"/>
-					<Co K="outMeterReading" U="1c54dcf1-001a-6198-ffff88efcbb17ecb"/>
-					<Co K="outConsCurr" U="1c54dcf1-001a-6199-ffff88efcbb17ecb"/>
-					<Co K="outConsLast" U="1c54dcf1-001a-619a-ffff88efcbb17ecb"/>
-					<Co K="outConsDay" U="1c54dcf1-001a-619b-ffff88efcbb17ecb"/>
-					<Co K="outConsLastDay" U="1c54dcf1-001a-619c-ffff88efcbb17ecb"/>
-					<Co K="outConsWeek" U="1c54dcf1-001a-619d-ffff88efcbb17ecb"/>
-					<Co K="outConsLastWeek" U="1c54dcf1-001a-619e-ffff88efcbb17ecb"/>
-					<Co K="outConsMonth" U="1c54dcf1-001a-619f-ffff88efcbb17ecb"/>
-					<Co K="outConsLastMonth" U="1c54dcf1-001a-61a0-ffff88efcbb17ecb"/>
-					<Co K="outConsYear" U="1c54dcf1-001a-61a1-ffff88efcbb17ecb"/>
-					<Co K="outConsLastYear" U="1c54dcf1-001a-61a2-ffff88efcbb17ecb"/>
-					<Co K="outLog" U="1c54dcf1-001a-61a3-ffff88efcbb17ecb"/>
-					<Co K="outSesE" U="1c54dcf1-001a-61a4-ffff88efcbb17ecb"/>
-					<Co K="outPrice" U="1c54dcf1-001a-61a5-ffff88efcbb17ecb"/>
-					<Co K="outUserId" U="1c54dcf1-001a-61a6-ffff88efcbb17ecb"/>
-					<Co K="OutputAPI" Nc="1" U="1c54dcf1-001a-61a7-ffff88efcbb17ecb">
-						<In Input="1c54dcf1-001a-61a9-ffff88efcbb17ecb" Hidden="true"/>
-					</Co>
-					<IoData Visu="true" Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7" Rating="4" UseInFav="true"/>
-					<Modes>
-						<Mode N="Schnell" L="11" P="0.223"/>
-						<Mode N="Langsam" L="4.16" P="0.223"/>
-						<Mode N="Überschuss" L="4.16" P="0.223"/>
-						<Mode N=""/>
-						<Mode N=""/>
-						<Mode N="Fixer Sollwert" I="true" Ix="99"/>
-					</Modes>
-				</C>
-				<C Type="Text" V="163" U="1c54dcf1-001a-61aa-ffff88efcbb17ecb" Title="Notiz" Px="6144" Py="8064" Px2="10518" Py2="8460" Cl="255,249,196" LtE="474708082" Text="Hier sollte die Wallbox verbunden sein, wie im Blatt 4b.
-Das geht aber nur 1x pro Wallbox."/>
-				<C Type="NfcCodeTouch" V="163" U="1c54dd4d-0207-97b0-ffff7e7dcca6b5e7" Title="Code Touch Wallbox" Px="3072" Py="2496" Px2="5760" Py2="4128" Cl="105,195,80" Nio="30" Ref="1c54dd08-0235-781a-ffff7e7dcca6b5e7" WF="131072" SpCdUuid="" OStr="Schnell;Langsam;Überschuss; ; ; " HSize="10" SpStates="1c54dd4d-0207-9789-ffff876780b77e17,1c54dd4d-0207-978a-ffff876780b77e17,1c54dd4d-0207-978b-ffff876780b77e17,1c54dd4d-0207-978c-ffff876780b77e17,1c54dd4d-0207-978d-ffff876780b77e17,1c54dd4d-0207-978e-ffff876780b77e17,1c54dd4d-0207-978f-ffff876780b77e17,1c54dd4d-0207-9790-ffff876780b77e17,1c54dd4d-0207-9791-ffff876780b77e17" NAUTT="1" AP="true">
+				<C Type="NfcCodeTouch" V="163" U="1c54dd4d-0207-97b0-ffff7e7dcca6b5e7" Title="Code Touch Wallbox" Px="3072" Py="2496" Px2="5760" Py2="4320" Cl="105,195,80" Nio="30" Ref="1c54dd08-0235-781a-ffff7e7dcca6b5e7" SpCdUuid="" OStr="Schnell;Langsam;Überschuss; ; ; " HSize="10" SpStates="1c54dd4d-0207-9789-ffff876780b77e17,1c54dd4d-0207-978a-ffff876780b77e17,1c54dd4d-0207-978b-ffff876780b77e17,1c54dd4d-0207-978c-ffff876780b77e17,1c54dd4d-0207-978d-ffff876780b77e17,1c54dd4d-0207-978e-ffff876780b77e17,1c54dd4d-0207-978f-ffff876780b77e17,1c54dd4d-0207-9790-ffff876780b77e17,1c54dd4d-0207-9791-ffff876780b77e17" NAUTT="1" AP="true">
 					<Co K="Disable" U="1c54dd4d-0207-9792-00ff876780b77e17"/>
 					<Co K="Lr" U="1c54dd4d-0207-9793-01ff876780b77e17"/>
 					<Co K="Lg" U="1c54dd4d-0207-9794-02ff876780b77e17"/>
@@ -2847,7 +2791,7 @@ Das geht aber nur 1x pro Wallbox."/>
 					</Co>
 					<IoData Visu="true" VisuPwd="true" Cr="1c4b6ecb-00d4-6ef5-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7"/>
 				</C>
-				<C Type="Radio" V="163" U="1c54dd65-023f-b75d-ffff7e7dcca6b5e7" Title="Wallbox Lademodi" Px="9888" Py="2496" Px2="12576" Py2="3936" Cl="105,195,80" Nio="26" LtE="475324917" T1="Schnell" T2="Langsam" T3="Überschuss">
+				<C Type="Radio" V="163" U="1c54dd65-023f-b75d-ffff7e7dcca6b5e7" Title="Wallbox Lademodi" Px="9888" Py="2688" Px2="12576" Py2="4128" Cl="105,195,80" Nio="26" LtE="475324917" T1="Schnell" T2="Langsam" T3="Überschuss">
 					<Co K="InputTrigger 1" U="1c54dd65-023f-b743-00ff7cf2aaa6f533"/>
 					<Co K="InputTrigger 2" U="1c54dd65-023f-b744-01ff7cf2aaa6f533"/>
 					<Co K="InputTrigger 3" U="1c54dd65-023f-b745-02ff7cf2aaa6f533"/>
@@ -2884,7 +2828,7 @@ Das geht aber nur 1x pro Wallbox."/>
 					</Co>
 					<Co K="InputTrigger" U="1c54dec3-031e-6f23-01ffa348f5cd9b5c"/>
 					<Co K="InputR" Nc="1" U="1c54dec3-031e-6f24-02ffa348f5cd9b5c">
-						<In Input="1c54dcf1-001a-61a4-ffff88efcbb17ecb" CF="true"/>
+						<In Input="1c55fe12-01c2-8815-ffff75f5eec85aef" CF="true"/>
 					</Co>
 					<Co K="Remanence" Inv="true" U="1c54dec3-031e-6f25-03ffa348f5cd9b5c"/>
 					<Co K="Q" U="1c54dec3-031e-6f26-04ffa348f5cd9b5c"/>
@@ -2892,19 +2836,286 @@ Das geht aber nur 1x pro Wallbox."/>
 				<C Type="Text" V="163" U="1c54df2d-01c5-d827-ffff7e7dcca6b5e7" Title="Notiz" Px="5088" Py="768" Px2="9255" Py2="1356" Cl="255,249,196" LtE="475324263" Text="Hier wird durch die erfolgreiche Authentifizierung
 am Code Touch der Ladevorgang aktiviert.
 Das wird beim Ende der Ladesession zurückgesetzt."/>
-				<C Type="Text" V="163" U="1c54df90-0043-089d-ffff7e7dcca6b5e7" Title="Notiz" Px="11232" Py="5952" Px2="15675" Py2="6348" Cl="255,249,196" LtE="475324330" Text="DIE RESTLICHE LOGIK KANN VON DEN ANDEREN 
-PROGRAMMSEITEN ÜBERNOMMEN WERDEN."/>
-				<C Type="OutputRef" V="163" U="1c54dcf1-001a-61ac-ffff88efcbb17ecb" Title="API Connector" Px="8448" Py="7680" Px2="10560" Py2="7872" Cl="238,238,238" Nio="2" RefL="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Ref2="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Text="true" LinkRefType="136">
-					<Co K="AI" Nc="1" U="1c54dcf1-001a-61a9-ffff88efcbb17ecb">
-						<In Input="1c54dcf1-001a-61a7-ffff88efcbb17ecb"/>
+				<C Type="Wallbox" V="163" U="1c55fe12-01c2-87ea-ffff75f5eec85aef" Title="Wallbox" StatsType="8" StatsAutoDel="1" Px="4320" Py="10944" Px2="7008" Py2="13728" Cl="105,195,80" Nio="45" LtE="474707988" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="" P1="4.16" P2="11" SpStates="1c55fe12-01c2-88aa-ffff75f5eec85aef,1c55fe12-01c2-88ab-ffff75f5eec85aef,1c55fe12-01c2-88ac-ffff75f5eec85aef,1c55fe12-01c2-88ad-ffff75f5eec85aef,1c55fe12-01c2-88ae-ffff75f5eec85aef,1c55fe12-01c2-88af-ffff75f5eec85aef" TRK_NE="100" TRK_MAX="100">
+					<statGrp id="1" m="10"/>
+					<statGrp id="2" m="11" acc="true"/>
+					<Co K="allow" Nc="1" U="1c55fe12-01c2-87eb-ffff75f5eec85aef">
+						<In Input="1c54dec3-031e-6f26-04ffa348f5cd9b5c" CF="true"/>
 					</Co>
-					<Co K="AQ" U="1c54dcf1-001a-61af-ffff88efcbb17ecb"/>
+					<Co K="prio" U="1c55fe12-01c2-87ec-ffff75f5eec85aef"/>
+					<Co K="connected" U="1c55fe12-01c2-87ed-ffff75f5eec85aef"/>
+					<Co K="power" Nc="1" U="1c55fe12-01c2-87ee-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-87e3-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="energy" U="1c55fe12-01c2-87f0-ffff75f5eec85aef"/>
+					<Co K="active" U="1c55fe12-01c2-87f1-ffff75f5eec85aef"/>
+					<Co K="setmode1" Nc="1" U="1c55fe12-01c2-87f2-ffff75f5eec85aef">
+						<In Input="1c54dd65-023f-b753-10ff7cf2aaa6f533" CF="true"/>
+					</Co>
+					<Co K="setmode2" Nc="1" U="1c55fe12-01c2-87f3-ffff75f5eec85aef">
+						<In Input="1c54dd65-023f-b754-11ff7cf2aaa6f533" CF="true"/>
+					</Co>
+					<Co K="setmode3" Nc="1" U="1c55fe12-01c2-87f4-ffff75f5eec85aef">
+						<In Input="1c54dd65-023f-b755-12ff7cf2aaa6f533" CF="true"/>
+					</Co>
+					<Co K="setmode4" U="1c55fe12-01c2-87f5-ffff75f5eec85aef"/>
+					<Co K="setmode5" U="1c55fe12-01c2-87f6-ffff75f5eec85aef"/>
+					<Co K="valmode1" U="1c55fe12-01c2-87f7-ffff75f5eec85aef"/>
+					<Co K="valmode2" U="1c55fe12-01c2-87f8-ffff75f5eec85aef"/>
+					<Co K="valmode3" Nc="1" U="1c55fe12-01c2-87f9-ffff75f5eec85aef">
+						<In Input="1c4b74a8-0079-8a28-16fffba3e59a7c8a" CF="true"/>
+					</Co>
+					<Co K="valmode4" U="1c55fe12-01c2-87fa-ffff75f5eec85aef"/>
+					<Co K="valmode5" U="1c55fe12-01c2-87fb-ffff75f5eec85aef"/>
+					<Co K="user" Nc="1" U="1c55fe12-01c2-87fc-ffff75f5eec85aef">
+						<In Input="1c54dd4d-0207-97a6-14ff876780b77e17" CF="true"/>
+					</Co>
+					<Co K="loadshed" U="1c55fe12-01c2-87fd-ffff75f5eec85aef"/>
+					<Co K="off" U="1c55fe12-01c2-87fe-ffff75f5eec85aef"/>
+					<Co K="resetM" U="1c55fe12-01c2-87ff-ffff75f5eec85aef"/>
+					<Co K="modeUnplug" U="1c55fe12-01c2-8800-ffff75f5eec85aef"/>
+					<Co K="priceHour" U="1c55fe12-01c2-8801-ffff75f5eec85aef"/>
+					<Co K="outAllow" U="1c55fe12-01c2-8802-ffff75f5eec85aef"/>
+					<Co K="outConnected" U="1c55fe12-01c2-8803-ffff75f5eec85aef"/>
+					<Co K="outActive" U="1c55fe12-01c2-8804-ffff75f5eec85aef"/>
+					<Co K="outPower" U="1c55fe12-01c2-8805-ffff75f5eec85aef"/>
+					<Co K="outMode" U="1c55fe12-01c2-8806-ffff75f5eec85aef"/>
+					<Co K="outLimit" U="1c55fe12-01c2-8807-ffff75f5eec85aef"/>
+					<Co K="outLoadshed" U="1c55fe12-01c2-8808-ffff75f5eec85aef"/>
+					<Co K="outMeterReading" U="1c55fe12-01c2-8809-ffff75f5eec85aef"/>
+					<Co K="outConsCurr" U="1c55fe12-01c2-880a-ffff75f5eec85aef"/>
+					<Co K="outConsLast" U="1c55fe12-01c2-880b-ffff75f5eec85aef"/>
+					<Co K="outConsDay" U="1c55fe12-01c2-880c-ffff75f5eec85aef"/>
+					<Co K="outConsLastDay" U="1c55fe12-01c2-880d-ffff75f5eec85aef"/>
+					<Co K="outConsWeek" U="1c55fe12-01c2-880e-ffff75f5eec85aef"/>
+					<Co K="outConsLastWeek" U="1c55fe12-01c2-880f-ffff75f5eec85aef"/>
+					<Co K="outConsMonth" U="1c55fe12-01c2-8810-ffff75f5eec85aef"/>
+					<Co K="outConsLastMonth" U="1c55fe12-01c2-8811-ffff75f5eec85aef"/>
+					<Co K="outConsYear" U="1c55fe12-01c2-8812-ffff75f5eec85aef"/>
+					<Co K="outConsLastYear" U="1c55fe12-01c2-8813-ffff75f5eec85aef"/>
+					<Co K="outLog" U="1c55fe12-01c2-8814-ffff75f5eec85aef"/>
+					<Co K="outSesE" U="1c55fe12-01c2-8815-ffff75f5eec85aef"/>
+					<Co K="outPrice" U="1c55fe12-01c2-8816-ffff75f5eec85aef"/>
+					<Co K="outUserId" U="1c55fe12-01c2-8817-ffff75f5eec85aef"/>
+					<Co K="OutputAPI" Nc="1" U="1c55fe12-01c2-8818-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-881a-ffff75f5eec85aef" Hidden="true"/>
+					</Co>
+					<IoData Visu="true" Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7" Rating="4" UseInFav="true"/>
+					<Modes>
+						<Mode N="Schnell" L="11" P="0.223"/>
+						<Mode N="Langsam" L="4.16" P="0.223"/>
+						<Mode N="Überschuss" L="4.16" P="0.223"/>
+						<Mode N=""/>
+						<Mode N=""/>
+						<Mode N="Fixer Sollwert" I="true" Ix="99"/>
+					</Modes>
 				</C>
-				<C Type="OutputRef" V="163" U="1c54dd4d-0206-9781-ffff7e7dcca6b5e7" Title="API Connector" Px="6624" Py="3936" Px2="8736" Py2="4128" Cl="238,238,238" Nio="2" Ref="1c54dd08-0295-784c-ffff7e7dcca6b5e7" Text="true" LinkRefType="136">
+				<C Type="TextGenerator" V="163" U="1c55fe12-01c2-881b-ffff75f5eec85aef" Title="O43604" Px="18720" Py="12480" Px2="20064" Py2="13920" Cl="105,195,80" Nio="17" LtE="474309500" Text="&lt;v1&gt;;KENNZEICHEN;&lt;v2.2&gt;" Text2="" Text3="&lt;v2.2&gt;" Text4="" Text5="">
+					<Co K="Trigger" Nc="1" U="1c55fe12-01c2-881c-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-8815-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="I1" Nc="1" U="1c55fe12-01c2-881e-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-8814-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="I2" Nc="1" U="1c55fe12-01c2-8820-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-8821-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="I3" U="1c55fe12-01c2-8822-ffff75f5eec85aef"/>
+					<Co K="I4" U="1c55fe12-01c2-8823-ffff75f5eec85aef"/>
+					<Co K="I5" U="1c55fe12-01c2-8824-ffff75f5eec85aef"/>
+					<Co K="I6" U="1c55fe12-01c2-8825-ffff75f5eec85aef"/>
+					<Co K="I7" U="1c55fe12-01c2-8826-ffff75f5eec85aef"/>
+					<Co K="I8" U="1c55fe12-01c2-8827-ffff75f5eec85aef"/>
+					<Co K="UserID" U="1c55fe12-01c2-8828-ffff75f5eec85aef"/>
+					<Co K="Td" Def="1000" U="1c55fe12-01c2-8829-ffff75f5eec85aef"/>
+					<Co K="TQ" U="1c55fe12-01c2-882a-ffff75f5eec85aef"/>
+					<Co K="TQ1" U="1c55fe12-01c2-882b-ffff75f5eec85aef"/>
+					<Co K="TQ2" U="1c55fe12-01c2-882c-ffff75f5eec85aef"/>
+					<Co K="TQ3" U="1c55fe12-01c2-882d-ffff75f5eec85aef"/>
+					<Co K="TQ4" U="1c55fe12-01c2-882e-ffff75f5eec85aef"/>
+					<Co K="OutputAPI" U="1c55fe12-01c2-882f-ffff75f5eec85aef"/>
+				</C>
+				<C Type="AnalogMultiplexer" V="163" U="1c55fe12-01c2-8830-ffff75f5eec85aef" Title="O45940" Px="14112" Py="9216" Px2="15456" Py2="10464" Cl="105,195,80" Nio="7" LtE="474297300">
+					<Co K="Input1" Def="0.25" U="1c55fe12-01c2-8831-ffff75f5eec85aef"/>
+					<Co K="Input2" Def="0.25" U="1c55fe12-01c2-8832-ffff75f5eec85aef"/>
+					<Co K="Input3" Nc="1" U="1c55fe12-01c2-8833-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-8834-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="Input4" U="1c55fe12-01c2-8835-ffff75f5eec85aef"/>
+					<Co K="InputDisable" U="1c55fe12-01c2-8836-ffff75f5eec85aef"/>
+					<Co K="Select" Def="1" Nc="1" U="1c55fe12-01c2-8837-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-8806-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="AQ" U="1c55fe12-01c2-8839-ffff75f5eec85aef"/>
+				</C>
+				<C Type="Avg" V="163" U="1c55fe12-01c2-883a-ffff75f5eec85aef" Title="O45941" Px="12192" Py="8736" Px2="13536" Py2="9600" Cl="105,195,80" Nio="6" LtE="474300256">
+					<Co K="Input" Nc="1" U="1c55fe12-01c2-883b-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-883c-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="Reset" Nc="1" U="1c55fe12-01c2-883d-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-883e-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="Remanence" Inv="true" U="1c55fe12-01c2-883f-ffff75f5eec85aef"/>
+					<Co K="Time" Def="300" U="1c55fe12-01c2-8840-ffff75f5eec85aef"/>
+					<Co K="Max" Def="24" U="1c55fe12-01c2-8841-ffff75f5eec85aef"/>
+					<Co K="AQ" U="1c55fe12-01c2-8834-ffff75f5eec85aef"/>
+				</C>
+				<C Type="EdgeDetection" V="163" U="1c55fe12-01c2-8843-ffff75f5eec85aef" Title="O45948" Px="8160" Py="9888" Px2="9504" Py2="10752" Cl="105,195,80" Nio="5">
+					<Co K="Input" Nc="1" U="1c55fe12-01c2-8844-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-8804-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="PulseTime" Def="1" U="1c55fe12-01c2-8846-ffff75f5eec85aef"/>
+					<Co K="Edge" U="1c55fe12-01c2-8847-ffff75f5eec85aef"/>
+					<Co K="RisingEdge" U="1c55fe12-01c2-8848-ffff75f5eec85aef"/>
+					<Co K="FallingEdge" U="1c55fe12-01c2-8849-ffff75f5eec85aef"/>
+				</C>
+				<C Type="OnPulseDelay" V="163" U="1c55fe12-01c2-884a-ffff75f5eec85aef" Title="O45949" Px="10272" Py="9312" Px2="11616" Py2="9984" Cl="105,195,80" Nio="6" LtE="474299345">
+					<Co K="InputTrigger" Nc="1" U="1c55fe12-01c2-884b-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-8847-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="Reset" U="1c55fe12-01c2-884d-ffff75f5eec85aef"/>
+					<Co K="Remanence" U="1c55fe12-01c2-884e-ffff75f5eec85aef"/>
+					<Co K="Delay" Def="5" U="1c55fe12-01c2-884f-ffff75f5eec85aef"/>
+					<Co K="Time" Def="0.5" U="1c55fe12-01c2-8850-ffff75f5eec85aef"/>
+					<Co K="Q" U="1c55fe12-01c2-883e-ffff75f5eec85aef"/>
+				</C>
+				<C Type="Mult" V="163" U="1c55fe12-01c2-8852-ffff75f5eec85aef" Title="O45950" Px="15744" Py="10368" Px2="17088" Py2="11040" Cl="105,195,80" Nio="3">
+					<Co K="Input1" Nc="1" U="1c55fe12-01c2-8853-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-8839-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="Input2" Nc="1" U="1c55fe12-01c2-8855-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-8856-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="AQ" U="1c55fe12-01c2-8821-ffff75f5eec85aef"/>
+				</C>
+				<C Type="State" V="163" U="1c55fe12-01c2-8858-ffff75f5eec85aef" Title="PV oder Epex" Px="8832" Py="7200" Px2="11520" Py2="8256" Cl="105,195,80" Nio="7" LtE="474707988">
+					<Co K="I1" U="1c55fe12-01c2-8859-ffff75f5eec85aef"/>
+					<Co K="I2" Nc="1" U="1c55fe12-01c2-885a-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-87e8-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="I3" U="1c55fe12-01c2-885c-ffff75f5eec85aef"/>
+					<Co K="I4" U="1c55fe12-01c2-885d-ffff75f5eec85aef"/>
+					<Co K="TQ" U="1c55fe12-01c2-885e-ffff75f5eec85aef"/>
+					<Co K="AQ" U="1c55fe12-01c2-883c-ffff75f5eec85aef"/>
+					<Co K="OutputAPI" U="1c55fe12-01c2-8860-ffff75f5eec85aef"/>
+					<IoData Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7"/>
+					<Display Unit="&lt;v.1&gt;"/>
+					<StateTexts Num="3">
+						<StateText Valid="true" ValidV="true" Text="PV Überschuss (man könnte statt 0 auch &lt;v2.3&gt; verwenden)" TextV="0" Icon="00000000-0000-0000-0000000000000000" IcC="5292905" Input0="1" Cond0="1"/>
+						<StateText Valid="true" ValidV="true" Text="Aktueller Epex Tarif" TextV="&lt;v3.3&gt;" Icon="00000000-0000-0000-0000000000000000" IcC="5292905" Input0="1" CondT0="0"/>
+						<StateText Valid="true" ValidV="true" Text="" TextV="0" Icon="00000000-0000-0000-0000000000000000" IcC="5292905"/>
+					</StateTexts>
+				</C>
+				<C Type="Text" V="163" U="1c55fe12-01c2-8861-ffff75f5eec85aef" Title="Notiz" Px="6912" Py="6528" Px2="11493" Py2="7116" Cl="255,249,196" LtE="474887025" Text="Hier wird bei PV Überschuss (vom Energiemanager) mit 
+0eur oder alternativ Einspeisetarif gerechnet.
+I3 ist für Epex, das ist in diesem Fall nicht relevant."/>
+				<C Type="Text" V="163" U="1c55fe12-01c2-8862-ffff75f5eec85aef" Title="Notiz" Px="12192" Py="8160" Px2="15254" Py2="8556" Cl="255,249,196" LtE="474299414" Text="Hier wird der gleitende Mittelwert
+während einer Ladesession berechnet."/>
+				<C Type="Text" V="163" U="1c55fe12-01c2-8863-ffff75f5eec85aef" Title="Notiz" Px="14112" Py="8736" Px2="19130" Py2="9132" Cl="255,249,196" LtE="474299467" Text="Hier wird entsprechend dem ausgewählten Lademodi entweder 
+ein Fixtarif oder der gleitende Mittelwert verwendet."/>
+				<C Type="Text" V="163" U="1c55fe12-01c2-8864-ffff75f5eec85aef" Title="Notiz" Px="13344" Py="11712" Px2="17488" Py2="12108" Cl="255,249,196" LtE="474299578" Text="Hier wird bei Ende der Ladesession die verbrauchte 
+Energie gesetzt und mit dem Mittelwert multipliziert."/>
+				<C Type="Text" V="163" U="1c55fe12-01c2-8865-ffff75f5eec85aef" Title="Notiz" Px="18720" Py="12000" Px2="21231" Py2="12396" Cl="255,249,196" LtE="474299882" Text="Hier wird mit Verzögerung der 
+Text für das Logging erzeugt."/>
+				<C Type="MeterAbsUni" V="163" U="1c55fe12-01c2-8866-ffff75f5eec85aef" Title="Wallbox Ladekosten" StatsType="8" Px="20448" Py="5568" Px2="23136" Py2="6624" Cl="105,195,80" Nio="15" LtE="474707988" PwrN="Kosten" Un1="&lt;v.2&gt;€" Un2="&lt;v.1&gt;€" Rec="">
+					<statGrp id="1" m="10"/>
+					<statGrp id="2" m="11" acc="true"/>
+					<Co K="Pf" Nc="1" U="1c55fe12-01c2-8867-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-8868-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="Mr" U="1c55fe12-01c2-8869-ffff75f5eec85aef"/>
+					<Co K="R" U="1c55fe12-01c2-886a-ffff75f5eec85aef"/>
+					<Co K="Mro" U="1c55fe12-01c2-886b-ffff75f5eec85aef"/>
+					<Co K="OPf" U="1c55fe12-01c2-886c-ffff75f5eec85aef"/>
+					<Co K="OMr" U="1c55fe12-01c2-886d-ffff75f5eec85aef"/>
+					<Co K="ORd" U="1c55fe12-01c2-886e-ffff75f5eec85aef"/>
+					<Co K="ORld" U="1c55fe12-01c2-886f-ffff75f5eec85aef"/>
+					<Co K="ORw" U="1c55fe12-01c2-8870-ffff75f5eec85aef"/>
+					<Co K="ORlw" U="1c55fe12-01c2-8871-ffff75f5eec85aef"/>
+					<Co K="ORm" U="1c55fe12-01c2-8872-ffff75f5eec85aef"/>
+					<Co K="ORlm" U="1c55fe12-01c2-8873-ffff75f5eec85aef"/>
+					<Co K="ORy" U="1c55fe12-01c2-8874-ffff75f5eec85aef"/>
+					<Co K="ORly" U="1c55fe12-01c2-8875-ffff75f5eec85aef"/>
+					<Co K="OutputAPI" U="1c55fe12-01c2-8876-ffff75f5eec85aef"/>
+					<IoData Visu="true" Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7" IconV="1b6f599c-03bf-9569-ffffed57184a04d2"/>
+				</C>
+				<C Type="MeterAbsUni" V="163" U="1c55fe12-01c2-8877-ffff75f5eec85aef" Title="Wallbox" StatsType="8" Px="20448" Py="6816" Px2="23136" Py2="7872" Cl="105,195,80" Nio="15" LtE="474707988" WF="1073741824" PwrN="Leistung" Un1="&lt;v.3&gt;kW" Un2="&lt;v.1&gt;kWh" Rec="">
+					<statGrp id="1" m="10"/>
+					<statGrp id="2" m="11" acc="true"/>
+					<Co K="Pf" Nc="1" U="1c55fe12-01c2-8878-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-8805-ffff75f5eec85aef" CF="true"/>
+					</Co>
+					<Co K="Mr" U="1c55fe12-01c2-887a-ffff75f5eec85aef"/>
+					<Co K="R" U="1c55fe12-01c2-887b-ffff75f5eec85aef"/>
+					<Co K="Mro" U="1c55fe12-01c2-887c-ffff75f5eec85aef"/>
+					<Co K="OPf" U="1c55fe12-01c2-887d-ffff75f5eec85aef"/>
+					<Co K="OMr" U="1c55fe12-01c2-887e-ffff75f5eec85aef"/>
+					<Co K="ORd" U="1c55fe12-01c2-887f-ffff75f5eec85aef"/>
+					<Co K="ORld" U="1c55fe12-01c2-8880-ffff75f5eec85aef"/>
+					<Co K="ORw" U="1c55fe12-01c2-8881-ffff75f5eec85aef"/>
+					<Co K="ORlw" U="1c55fe12-01c2-8882-ffff75f5eec85aef"/>
+					<Co K="ORm" U="1c55fe12-01c2-8883-ffff75f5eec85aef"/>
+					<Co K="ORlm" U="1c55fe12-01c2-8884-ffff75f5eec85aef"/>
+					<Co K="ORy" U="1c55fe12-01c2-8885-ffff75f5eec85aef"/>
+					<Co K="ORly" U="1c55fe12-01c2-8886-ffff75f5eec85aef"/>
+					<Co K="OutputAPI" U="1c55fe12-01c2-8887-ffff75f5eec85aef"/>
+					<IoData Visu="true" Cr="1c4b6ecb-00d4-6f01-ffff7e7dcca6b5e7" Pr="1c4b6ecb-00fb-6fd2-ffff7e7dcca6b5e7" IconV="0000008e-00ff-0000-0000000000000000"/>
+				</C>
+				<C Type="AMemory" V="163" U="1c55fe12-01c2-8888-ffff75f5eec85aef" Title="O45976" Px="14112" Py="10560" Px2="15456" Py2="11616" Cl="105,195,80" Nio="5" LtE="474706591">
+					<Co K="Input" Nc="1" U="1c55fe12-01c2-8889-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-880b-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="Trigger" Nc="1" U="1c55fe12-01c2-888b-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-8849-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="Reset" Nc="1" U="1c55fe12-01c2-888d-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-8848-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="Remanence" Inv="true" U="1c55fe12-01c2-888f-ffff75f5eec85aef"/>
+					<Co K="AQ" U="1c55fe12-01c2-8856-ffff75f5eec85aef"/>
+				</C>
+				<C Type="Mult" V="163" U="1c55fe12-01c2-8891-ffff75f5eec85aef" Title="O46546" Px="18144" Py="5760" Px2="19488" Py2="6432" Cl="105,195,80" Nio="3">
+					<Co K="Input1" Nc="1" U="1c55fe12-01c2-8892-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-883c-ffff75f5eec85aef" CF="true"/>
+					</Co>
+					<Co K="Input2" Nc="1" U="1c55fe12-01c2-8894-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-880a-ffff75f5eec85aef" CF="true"/>
+					</Co>
+					<Co K="AQ" U="1c55fe12-01c2-8868-ffff75f5eec85aef"/>
+				</C>
+				<C Type="Text" V="163" U="1c55fe12-01c2-8897-ffff75f5eec85aef" Title="Notiz" Px="768" Py="10848" Px2="3417" Py2="11244" Cl="255,249,196" LtE="474708547" Text="Hier muss der Energiezähler der
+Wallbox verbunden sein."/>
+				<C Type="Text" V="163" U="1c55fe12-01c2-8898-ffff75f5eec85aef" Title="Notiz" Px="384" Py="12960" Px2="3791" Py2="13356" Cl="255,249,196" LtE="475398094" Text="Der Analogausgang des Energiemanagers 
+kann bei Lm3 angeschlossen werden."/>
+				<C Type="Text" V="163" U="1c55fe12-01c2-8899-ffff75f5eec85aef" Title="Notiz" Px="5952" Py="14016" Px2="10326" Py2="14412" Cl="255,249,196" LtE="474708082" Text="Hier sollte die Wallbox verbunden sein, wie im Blatt 4b.
+Das geht aber nur 1x pro Wallbox."/>
+				<C Type="Text" V="163" U="1c55ff04-001b-680c-ffff7e7dcca6b5e7" Title="To-do" Px="19008" Py="4992" Px2="22415" Py2="5388" Cl="255,200,100" LtE="475397928" Text="Hier muss noch korrekt gerechnet werden,
+da brauche ich aber noch ein paar Daten." Td="true"/>
+				<C Type="OutputRefLM" V="163" U="1c55fe12-01c2-88a2-ffff75f5eec85aef" Title="Logger Wallbox" Px="21024" Py="12576" Px2="23136" Py2="12768" Cl="238,238,238" Nio="2" Ref="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" RefL="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" Ref2="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" WF="131072">
+					<Co K="AI" Nc="1" U="1c55fe12-01c2-88a3-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-882a-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="AQ" U="1c55fe12-01c2-88a5-ffff75f5eec85aef"/>
+					<LoggerMailer RefLogger="1c4b7478-01c3-7575-ffff7e7dcca6b5e7" On="&lt;v&gt;" Off="&lt;v&gt;" MinimumTime="5000"/>
+				</C>
+				<C Type="OutputRef" V="163" U="1c54dd4d-0206-9781-ffff7e7dcca6b5e7" Title="API Connector" Px="6624" Py="4128" Px2="8736" Py2="4320" Cl="238,238,238" Nio="2" Ref="1c54dd08-0295-784c-ffff7e7dcca6b5e7" Text="true" LinkRefType="136">
 					<Co K="AI" Nc="1" U="1c54dd4d-0206-977f-00ff5486bca676d3">
 						<In Input="1c54dd4d-0207-97af-1dff876780b77e17"/>
 					</Co>
 					<Co K="AQ" U="1c54dd4d-0206-9780-01ff5486bca676d3"/>
+				</C>
+				<C Type="OutputRef" V="163" U="1c55fe12-01c2-889a-ffff75f5eec85aef" Title="API Connector" Px="7968" Py="13632" Px2="10080" Py2="13824" Cl="238,238,238" Nio="2" RefL="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Ref2="1c4b7415-005c-4b19-ffff7e7dcca6b5e7" Text="true" LinkRefType="136">
+					<Co K="AI" Nc="1" U="1c55fe12-01c2-881a-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-8818-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="AQ" U="1c55fe12-01c2-889d-ffff75f5eec85aef"/>
+				</C>
+				<C Type="OutputRefLM" V="163" U="1c55fe12-01c2-889e-ffff75f5eec85aef" Title="Tracker Wallbox" Px="21024" Py="12768" Px2="23136" Py2="12960" Cl="238,238,238" Nio="2" Ref="1c4b7462-0155-618d-ffff7e7dcca6b5e7" RefL="1c4b7462-0155-618d-ffff7e7dcca6b5e7" Ref2="1c4b7462-0155-618d-ffff7e7dcca6b5e7" WF="131072">
+					<Co K="AI" Nc="1" U="1c55fe12-01c2-889f-ffff75f5eec85aef">
+						<In Input="1c55fe12-01c2-882a-ffff75f5eec85aef"/>
+					</Co>
+					<Co K="AQ" U="1c55fe12-01c2-88a1-ffff75f5eec85aef"/>
+					<LoggerMailer RefTracker="1c4b7462-0155-618d-ffff7e7dcca6b5e7" On="&lt;v&gt;" Off="&lt;v&gt;" MinimumTime="5000"/>
 				</C>
 			</C>
 		</C>
